@@ -544,6 +544,7 @@
   }
   .cxm-nav .dropdown > .dropdown-menu {
     margin-top: 0 !important;
+    right: 0;
   }
   .cxm-nav .dropdown::after {
     content: "";
@@ -836,7 +837,7 @@
 .cxm-card {
   position: relative;
   overflow: hidden;
-  height: 100%;
+  height: auto;
   padding: 28px;
   border-radius: var(--cxm-radius);
   background: #fff;
@@ -1391,7 +1392,7 @@
   position: absolute;
   left: 0;
   right: 0;
-  top: 27px;
+  top: 50px;
   height: 4px;
   border-radius: 4px;
   background: linear-gradient(90deg, #38bdf8, #34d399, #fbbf24, #f43f5e);
