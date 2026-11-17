@@ -8,6 +8,9 @@
    * Built to sit on top of Bootstrap 5.3 (grid + utilities).
    ===================================================================== */
 
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /* ---------- 1. Tokens ---------- */
 .cxm {
   --cxm-navy: #08203a;
@@ -28,8 +31,10 @@
   --cxm-radius-sm: 18px;
   --cxm-shadow: 0 10px 34px rgba(8, 32, 58, 0.08);
   --cxm-shadow-lg: 0 24px 64px rgba(8, 32, 58, 0.16);
-  --cxm-font-head: "Space Grotesk", "Segoe UI", system-ui, sans-serif;
-  --cxm-font-body: "Manrope", "Segoe UI", system-ui, sans-serif;
+  /* --cxm-font-head: "Space Grotesk", "Segoe UI", system-ui, sans-serif; */
+  --cxm-font-head: "Poppins", sans-serif;
+  /* --cxm-font-body: "Manrope", "Segoe UI", system-ui, sans-serif; */
+  --cxm-font-body: "Poppins", sans-serif;
   --cxm-header-h: 76px;
 
   font-family: var(--cxm-font-body);
