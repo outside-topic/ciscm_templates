@@ -1,0 +1,786 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Integrity: Quality, Claims, Complaints, Appeals | CISCM</title>
+    <meta name="description" content="Quality assurance, public claims and brand use, complaints and appeals at CISCM." />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- CISCM styles (all classes prefixed cxm-) -->
+    <link rel="stylesheet" href="assets/css/ciscm.css" />
+  </head>
+  <body>
+    <div class="cxm">
+      <header class="cxm-header">
+        <div class="cxm-rainbow"></div>
+        <nav class="navbar navbar-expand-xl navbar-dark">
+          <div class="container-xxl">
+            <a class="cxm-logo navbar-brand me-0" href="index.html" aria-label="CISCM home"
+              ><span class="d-flex align-items-center gap-3" data-cxm-logo
+                ><span class="cxm-logo-mark"
+                  ><svg viewBox="0 0 40 40" width="28" height="28" aria-hidden="true">
+                    <circle cx="8" cy="20" r="3.2" fill="#FCD34D" />
+                    <circle cx="20" cy="9" r="3.2" fill="#fff" />
+                    <circle cx="20" cy="31" r="3.2" fill="#fff" />
+                    <circle cx="32" cy="20" r="3.2" fill="#34D399" />
+                    <path d="M8 20 L20 9 L32 20 L20 31 Z" fill="none" stroke="#fff" stroke-width="1.8" stroke-opacity=".85" /></svg></span
+                ><span
+                  ><span class="cxm-logo-name">CISCM</span><span class="cxm-logo-sub">Chartered Institute of Supply Chain Mgmt</span></span
+                ></span
+              ></a
+            >
+            <button
+              class="navbar-toggler cxm-burger"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#cxmNav"
+              aria-controls="cxmNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="bi bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end cxm-nav" id="cxmNav">
+              <ul class="navbar-nav align-items-xl-center gap-xl-1">
+                <li class="nav-item"><a class="nav-link cxm-nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link cxm-nav-link" href="membership.html">Membership</a></li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link cxm-nav-link dropdown-toggle"
+                    href="accreditation.html"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    data-bs-auto-close="true"
+                    aria-expanded="false"
+                    >Accreditation</a
+                  >
+                  <div class="dropdown-menu cxm-dd">
+                    <a class="dropdown-item" href="accreditation.html">Accreditation overview</a
+                    ><a class="dropdown-item" href="accreditation.html#overview">Accreditation Overview</a
+                    ><a class="dropdown-item" href="accreditation.html#institutional">Institutional Accreditation</a
+                    ><a class="dropdown-item" href="accreditation.html#program">Program Accreditation</a>
+                  </div>
+                </li>
+                <li class="nav-item"><a class="nav-link cxm-nav-link" href="credentials.html">Credentials</a></li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link cxm-nav-link dropdown-toggle"
+                    href="solutions.html"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    data-bs-auto-close="true"
+                    aria-expanded="false"
+                    >Solutions for Organizations</a
+                  >
+                  <div class="dropdown-menu cxm-dd">
+                    <a class="dropdown-item" href="solutions.html">Solutions for Organizations overview</a
+                    ><a class="dropdown-item" href="solutions.html#employers">Employers</a
+                    ><a class="dropdown-item" href="solutions.html#providers">Education Providers</a
+                    ><a class="dropdown-item" href="solutions.html#academies">Corporate Academies</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link cxm-nav-link dropdown-toggle cxm-active"
+                    href="integrity.html"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    data-bs-auto-close="true"
+                    aria-expanded="false"
+                    >Integrity</a
+                  >
+                  <div class="dropdown-menu cxm-dd dropdown-menu-xl-end">
+                    <a class="dropdown-item" href="integrity.html">Integrity overview</a
+                    ><a class="dropdown-item" href="integrity.html#quality">Quality Assurance</a
+                    ><a class="dropdown-item" href="integrity.html#claims">Public Claims and Brand Use</a
+                    ><a class="dropdown-item" href="integrity.html#complaints">Complaints</a
+                    ><a class="dropdown-item" href="integrity.html#appeals">Appeals</a>
+                  </div>
+                </li>
+                <li class="nav-item"><a class="nav-link cxm-nav-link" href="contact.html">Contact</a></li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link cxm-nav-link dropdown-toggle"
+                    href="verify.html"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    data-bs-auto-close="true"
+                    aria-expanded="false"
+                    >Verify</a
+                  >
+                  <div class="dropdown-menu cxm-dd dropdown-menu-xl-end">
+                    <a class="dropdown-item" href="verify.html">Verify overview</a
+                    ><a class="dropdown-item" href="verify.html#program">Program Verify</a
+                    ><a class="dropdown-item" href="verify.html#accreditation">Accreditation Verify</a
+                    ><a class="dropdown-item" href="verify.html#member">Member Verify</a>
+                  </div>
+                </li>
+                <li class="nav-item d-xl-none"><a class="nav-link cxm-nav-link" href="about.html">About</a></li>
+                <li class="nav-item d-xl-none">
+                  <a class="nav-link cxm-nav-link" href="professional-standards.html">Professional Standards</a>
+                </li>
+                <li class="nav-item d-xl-none">
+                  <a class="nav-link cxm-nav-link" href="professional-services.html">Professional Services</a>
+                </li>
+              </ul>
+              <a class="cxm-btn cxm-btn--primary cxm-join ms-xl-3" href="membership.html">Join CISCM</a>
+            </div>
+          </div>
+        </nav>
+        <div class="cxm-topbar d-none d-xl-block">
+          <div class="container-xxl d-flex justify-content-end gap-4 py-1">
+            <a href="about.html" class="">About</a><a href="credentials.html" class="">Credentials</a
+            ><a href="professional-standards.html" class="">Professional Standards</a
+            ><a href="professional-services.html" class="">Professional Services</a>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <header class="cxm-pagehero" data-cxm-scope>
+          <div class="cxm-media">
+            <div class="cxm-media-photo" data-cxm-photo="qualityHero"></div>
+            <div class="cxm-media-video" data-cxm-video="integrity"></div>
+          </div>
+          <div class="cxm-overlay cxm-ov-fuchsia"></div>
+          <div class="cxm-gridlines"></div>
+          <div class="container cxm-container">
+            <div class="row align-items-center g-5">
+              <div class="col-lg-9">
+                <div class="cxm-crumb" data-cxm-intro><a href="index.html">Home</a> <span class="mx-2">›</span> Integrity</div>
+                <h1 class="mt-3" data-cxm-intro>Integrity</h1>
+                <p class="cxm-hero-text" data-cxm-intro>Recognition that remains credible after the certificate is issued.</p>
+              </div>
+              <div class="col-lg-3 d-none d-lg-flex justify-content-end">
+                <div class="cxm-hero-badge cxm-float"><i class="bi bi-shield-check"></i></div>
+              </div>
+            </div>
+          </div>
+          <button class="cxm-vid-toggle" data-cxm-vid-toggle aria-label="Pause background video"><i class="bi bi-pause-fill"></i></button
+          ><svg class="cxm-wave" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true">
+            <path fill="currentColor" d="M0,40 C240,95 480,0 720,30 C960,60 1200,90 1440,35 L1440,90 L0,90 Z" />
+          </svg>
+        </header>
+        <div class="cxm-subnav-wrap">
+          <div class="container">
+            <nav class="cxm-subnav" aria-label="On this page">
+              <a href="#quality">Quality Assurance</a><a href="#claims">Public Claims &amp; Brand Use</a><a href="#complaints">Complaints</a
+              ><a href="#appeals">Appeals</a>
+            </nav>
+          </div>
+        </div>
+        <section class="cxm-section cxm-anchor" id="quality">
+          <div class="container cxm-container">
+            <div class="cxm-head cxm-reveal">
+              <span class="cxm-pill cxm-t-rose">Quality assurance</span>
+              <h2 class="cxm-title">The whole lifecycle, not just the award</h2>
+              <p class="cxm-lead">
+                From eligibility and evidence review through decision, public verification, monitoring, change control, complaints, renewal
+                and closure.
+              </p>
+            </div>
+            <div class="row g-3">
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class="cxm-mini cxm-reveal">
+                  <span class="cxm-ico cxm-ico--round cxm-t-blue"><i class="bi bi-file-earmark-text"></i></span>
+                  <h4>Evidence-based</h4>
+                  <p>Documented evidence meeting stated requirements.</p>
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class="cxm-mini cxm-reveal">
+                  <span class="cxm-ico cxm-ico--round cxm-t-teal"><i class="bi bi-arrow-repeat"></i></span>
+                  <h4>Consistent</h4>
+                  <p>Similar cases treated alike, anywhere, any time.</p>
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class="cxm-mini cxm-reveal">
+                  <span class="cxm-ico cxm-ico--round cxm-t-amber"><i class="bi bi-eye"></i></span>
+                  <h4>Transparent</h4>
+                  <p>Criteria and processes public throughout.</p>
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class="cxm-mini cxm-reveal">
+                  <span class="cxm-ico cxm-ico--round cxm-t-rose"><i class="bi bi-bank2"></i></span>
+                  <h4>Independent</h4>
+                  <p>Assessment separate from commercial or advocacy work.</p>
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class="cxm-mini cxm-reveal">
+                  <span class="cxm-ico cxm-ico--round cxm-t-emerald"><i class="bi bi-bullseye"></i></span>
+                  <h4>Proportionate</h4>
+                  <p>Requirements match level and scope.</p>
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class="cxm-mini cxm-reveal">
+                  <span class="cxm-ico cxm-ico--round cxm-t-orange"><i class="bi bi-folder2-open"></i></span>
+                  <h4>Documented</h4>
+                  <p>Every decision recorded and auditable.</p>
+                </div>
+              </div>
+            </div>
+            <div class="row g-4 mt-3">
+              <div class="col-lg-7">
+                <div class="cxm-softbox cxm-t-rose cxm-reveal">
+                  <h3 class="cxm-h4" style="font-size: 21px">Monitoring activities</h3>
+                  <div class="row mt-2">
+                    <div class="col-md-6">
+                      <ul class="cxm-check cxm-t-rose">
+                        <li><i class="bi bi-check-circle-fill"></i><span>Annual returns</span></li>
+                      </ul>
+                    </div>
+                    <div class="col-md-6">
+                      <ul class="cxm-check cxm-t-rose">
+                        <li><i class="bi bi-check-circle-fill"></i><span>Desk review of public claims, registers and evidence</span></li>
+                      </ul>
+                    </div>
+                    <div class="col-md-6">
+                      <ul class="cxm-check cxm-t-rose">
+                        <li><i class="bi bi-check-circle-fill"></i><span>Observation of delivery, assessment or moderation</span></li>
+                      </ul>
+                    </div>
+                    <div class="col-md-6">
+                      <ul class="cxm-check cxm-t-rose">
+                        <li><i class="bi bi-check-circle-fill"></i><span>Site or systems validation</span></li>
+                      </ul>
+                    </div>
+                    <div class="col-md-6">
+                      <ul class="cxm-check cxm-t-rose">
+                        <li>
+                          <i class="bi bi-check-circle-fill"></i><span>Sampling of learners, employers, trainers, partners or members</span>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-md-6">
+                      <ul class="cxm-check cxm-t-rose">
+                        <li>
+                          <i class="bi bi-check-circle-fill"></i
+                          ><span>Thematic reviews: online assessment, AI, subcontracting, certification</span>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-md-6">
+                      <ul class="cxm-check cxm-t-rose">
+                        <li>
+                          <i class="bi bi-check-circle-fill"></i
+                          ><span>Triggered reviews after a complaint, anomaly, breach or unreported change</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <div class="row g-3">
+                  <div class="col-6">
+                    <div class="cxm-gstat cxm-t-rose cxm-reveal">
+                      <h3 class="cxm-h4" style="color: #fff">Ongoing</h3>
+                      <p class="mt-1" style="font-size: 14px">Continuous status monitoring</p>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="cxm-gstat cxm-t-emerald cxm-reveal">
+                      <h3 class="cxm-h4" style="color: #fff">Triggered</h3>
+                      <p class="mt-1" style="font-size: 14px">Initiated by a specific event</p>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="cxm-gstat cxm-t-orange cxm-reveal">
+                      <h3 class="cxm-h4" style="color: #fff">Scheduled</h3>
+                      <p class="mt-1" style="font-size: 14px">Planned review cycles</p>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="cxm-gstat cxm-t-sky cxm-reveal">
+                      <h3 class="cxm-h4" style="color: #fff">Random</h3>
+                      <p class="mt-1" style="font-size: 14px">Unannounced checks</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="cxm-darkbox mt-4 cxm-reveal">
+              <div class="cxm-eyebrow">Renewal is not automatic</div>
+              <div class="row g-3 mt-2">
+                <div class="col-sm-6 col-lg-3">
+                  <div class="cxm-glassbox">
+                    <div style="font-family: var(--cxm-font-head); font-size: 36px; font-weight: 700; color: #67e8f9">01</div>
+                    <h4 class="cxm-h4 mt-1">Notification</h4>
+                    <p class="mt-1" style="font-size: 14px">Advance notice of requirements and deadlines.</p>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                  <div class="cxm-glassbox">
+                    <div style="font-family: var(--cxm-font-head); font-size: 36px; font-weight: 700; color: #67e8f9">02</div>
+                    <h4 class="cxm-h4 mt-1">Evidence submission</h4>
+                    <p class="mt-1" style="font-size: 14px">Current evidence of ongoing competence and practice.</p>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                  <div class="cxm-glassbox">
+                    <div style="font-family: var(--cxm-font-head); font-size: 36px; font-weight: 700; color: #67e8f9">03</div>
+                    <h4 class="cxm-h4 mt-1">Review</h4>
+                    <p class="mt-1" style="font-size: 14px">Checked against current standards.</p>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                  <div class="cxm-glassbox">
+                    <div style="font-family: var(--cxm-font-head); font-size: 36px; font-weight: 700; color: #67e8f9">04</div>
+                    <h4 class="cxm-h4 mt-1">Decision</h4>
+                    <p class="mt-1" style="font-size: 14px">Granted, refused or deferred, with documented rationale.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="cxm-band cxm-anchor" id="claims" data-cxm-scope>
+          <div class="cxm-media"><div class="cxm-media-photo" data-cxm-photo="claims"></div></div>
+          <div class="cxm-overlay cxm-ov-blue"></div>
+          <div class="container cxm-container cxm-on-dark">
+            <div class="cxm-head cxm-reveal">
+              <span class="cxm-pill cxm-pill--light">Public claims &amp; brand use</span>
+              <h2 class="cxm-title">Say exactly what has been approved — no more and no less</h2>
+              <p class="cxm-lead">
+                Holders of CISCM recognition and accredited entities must describe that recognition accurately in all public communications,
+                marketing and official documents.
+              </p>
+            </div>
+            <div class="row g-4">
+              <div class="col-md-6 col-lg-4">
+                <div class="cxm-glassbox cxm-reveal">
+                  <span style="font-family: var(--cxm-font-head); font-size: 32px; font-weight: 700; color: #fcd34d">1</span>
+                  <h3 class="cxm-h4 mt-1">Exact wording only</h3>
+                  <p class="mt-1" style="font-size: 15px">Use only the precise title, grade or status formally awarded.</p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="cxm-glassbox cxm-reveal">
+                  <span style="font-family: var(--cxm-font-head); font-size: 32px; font-weight: 700; color: #fcd34d">2</span>
+                  <h3 class="cxm-h4 mt-1">No implied endorsement</h3>
+                  <p class="mt-1" style="font-size: 15px">Never suggest approval or recognition that was not granted.</p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="cxm-glassbox cxm-reveal">
+                  <span style="font-family: var(--cxm-font-head); font-size: 32px; font-weight: 700; color: #fcd34d">3</span>
+                  <h3 class="cxm-h4 mt-1">Brand and mark restriction</h3>
+                  <p class="mt-1" style="font-size: 15px">No CISCM branding, logos or marks without written permission.</p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="cxm-glassbox cxm-reveal">
+                  <span style="font-family: var(--cxm-font-head); font-size: 32px; font-weight: 700; color: #fcd34d">4</span>
+                  <h3 class="cxm-h4 mt-1">No overstated claims</h3>
+                  <p class="mt-1" style="font-size: 15px">Competence, scope or level claims never exceed the formal recognition.</p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="cxm-glassbox cxm-reveal">
+                  <span style="font-family: var(--cxm-font-head); font-size: 32px; font-weight: 700; color: #fcd34d">5</span>
+                  <h3 class="cxm-h4 mt-1">Immediate correction</h3>
+                  <p class="mt-1" style="font-size: 15px">Remove or update claims at once on suspension, expiry or withdrawal.</p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="cxm-glassbox cxm-reveal">
+                  <span style="font-family: var(--cxm-font-head); font-size: 32px; font-weight: 700; color: #fcd34d">6</span>
+                  <h3 class="cxm-h4 mt-1">Verifiability</h3>
+                  <p class="mt-1" style="font-size: 15px">Every public claim must be checkable through CISCM verification.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="cxm-section cxm-section--tight">
+          <div class="container cxm-container">
+            <div class="row g-4">
+              <div class="col-md-6">
+                <div class="cxm-softbox cxm-t-emerald cxm-reveal">
+                  <h3 class="cxm-h4 cxm-tint d-flex gap-2" style="font-size: 22px"><i class="bi bi-check-circle-fill"></i>Permitted</h3>
+                  <ul class="mt-3">
+                    <li class="py-1">• Stating the exact title, grade or status formally awarded</li>
+                    <li class="py-1">• Claims verifiable through CISCM verification</li>
+                    <li class="py-1">• Keeping claims current and matching the recognition</li>
+                    <li class="py-1">• Updating or removing claims when recognition lapses</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="cxm-softbox cxm-t-rose cxm-reveal">
+                  <h3 class="cxm-h4 cxm-tint d-flex gap-2" style="font-size: 22px"><i class="bi bi-x-circle-fill"></i>Prohibited</h3>
+                  <ul class="mt-3">
+                    <li class="py-1">• Implying endorsement, approval or recognition not granted</li>
+                    <li class="py-1">• Using CISCM logos, branding or marks without written permission</li>
+                    <li class="py-1">• Claiming competence, scope or level beyond the formal award</li>
+                    <li class="py-1">• Continuing claims after suspension, expiry or withdrawal</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="cxm-section cxm-section--warm cxm-anchor" id="complaints">
+          <div class="container cxm-container">
+            <div class="row g-5">
+              <div class="col-lg-5">
+                <div class="cxm-head mb-4 cxm-reveal">
+                  <span class="cxm-pill cxm-t-amber">Complaints</span>
+                  <h2 class="cxm-title">Raise a concern about service, quality, conduct or public claims</h2>
+                </div>
+                <div class="row g-3">
+                  <div class="col-6">
+                    <div class="cxm-card cxm-card--flat cxm-t-blue" style="padding: 18px">
+                      <i class="bi bi-person-check cxm-tint" style="font-size: 24px"></i>
+                      <h4 class="cxm-h4 mt-2" style="font-size: 16px">Identity</h4>
+                      <p class="cxm-small mt-1" style="font-size: 13.5px">Your name and contact details</p>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="cxm-card cxm-card--flat cxm-t-teal" style="padding: 18px">
+                      <i class="bi bi-file-earmark-text cxm-tint" style="font-size: 24px"></i>
+                      <h4 class="cxm-h4 mt-2" style="font-size: 16px">Details</h4>
+                      <p class="cxm-small mt-1" style="font-size: 13.5px">A clear description of the concern</p>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="cxm-card cxm-card--flat cxm-t-amber" style="padding: 18px">
+                      <i class="bi bi-folder2-open cxm-tint" style="font-size: 24px"></i>
+                      <h4 class="cxm-h4 mt-2" style="font-size: 16px">Evidence</h4>
+                      <p class="cxm-small mt-1" style="font-size: 13.5px">Supporting documents, where available</p>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="cxm-card cxm-card--flat cxm-t-rose" style="padding: 18px">
+                      <i class="bi bi-search cxm-tint" style="font-size: 24px"></i>
+                      <h4 class="cxm-h4 mt-2" style="font-size: 16px">Subject</h4>
+                      <p class="cxm-small mt-1" style="font-size: 13.5px">The person, credential or organisation</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="cxm-card cxm-card--flat mt-3">
+                  <h4 class="cxm-h4" style="font-size: 17px; margin: 0">Possible outcomes</h4>
+                  <ul class="mt-2" style="font-size: 14.5px">
+                    <li class="py-1">• Correction of public claims or marketing</li>
+                    <li class="py-1">• Suspension or withdrawal of recognition</li>
+                    <li class="py-1">• Additional evidence or training required</li>
+                    <li class="py-1">• Formal warning or reprimand</li>
+                    <li class="py-1">• Referral to another body if outside scope</li>
+                    <li class="py-1">• No action if not upheld</li>
+                  </ul>
+                </div>
+                <div class="mt-4">
+                  <a class="cxm-btn cxm-btn--primary" href="contact.html">Submit a complaint<i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+              <div class="col-lg-7">
+                <ul class="cxm-timeline">
+                  <li class="cxm-reveal">
+                    <span class="cxm-step-num cxm-t-blue">1</span>
+                    <div>
+                      <h4>Acknowledgement</h4>
+                      <p>CISCM receives and acknowledges the complaint.</p>
+                    </div>
+                  </li>
+                  <li class="cxm-reveal">
+                    <span class="cxm-step-num cxm-t-teal">2</span>
+                    <div>
+                      <h4>Initial assessment</h4>
+                      <p>Checks whether it falls within CISCM jurisdiction.</p>
+                    </div>
+                  </li>
+                  <li class="cxm-reveal">
+                    <span class="cxm-step-num cxm-t-amber">3</span>
+                    <div>
+                      <h4>Investigation</h4>
+                      <p>Evidence gathered and assessed; parties may be contacted.</p>
+                    </div>
+                  </li>
+                  <li class="cxm-reveal">
+                    <span class="cxm-step-num cxm-t-rose">4</span>
+                    <div>
+                      <h4>Findings</h4>
+                      <p>A summary of findings prepared from the evidence.</p>
+                    </div>
+                  </li>
+                  <li class="cxm-reveal">
+                    <span class="cxm-step-num cxm-t-emerald">5</span>
+                    <div>
+                      <h4>Decision</h4>
+                      <p>Both parties are told the outcome.</p>
+                    </div>
+                  </li>
+                  <li class="cxm-reveal">
+                    <span class="cxm-step-num cxm-t-orange">6</span>
+                    <div>
+                      <h4>Remedy</h4>
+                      <p>If upheld, remedial action is set and implemented.</p>
+                    </div>
+                  </li>
+                  <li class="cxm-reveal">
+                    <span class="cxm-step-num cxm-t-sky">7</span>
+                    <div>
+                      <h4>Closure</h4>
+                      <p>Formally closed and records retained.</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="cxm-section cxm-anchor" id="appeals">
+          <div class="container cxm-container">
+            <div class="cxm-head cxm-reveal">
+              <span class="cxm-pill cxm-t-blue">Appeals</span>
+              <h2 class="cxm-title">Request independent review of a formal CISCM decision</h2>
+              <p class="cxm-lead">Recommended timeframes for each stage:</p>
+            </div>
+            <div class="cxm-hscroll">
+              <div class="cxm-hscroll-row">
+                <div class="cxm-tstep cxm-t-blue cxm-reveal">
+                  <div class="d-flex align-items-center gap-2">
+                    <span class="cxm-step-num" style="width: 34px; height: 34px; font-size: 14px">1</span
+                    ><i class="bi bi-clock" style="color: #94a3b8"></i>
+                  </div>
+                  <h4>Submit appeal</h4>
+                  <div class="cxm-time">Within 30 days of decision notification</div>
+                  <div class="cxm-small mt-1" style="font-size: 13px">Appellant</div>
+                </div>
+                <div class="cxm-tstep cxm-t-teal cxm-reveal">
+                  <div class="d-flex align-items-center gap-2">
+                    <span class="cxm-step-num" style="width: 34px; height: 34px; font-size: 14px">2</span
+                    ><i class="bi bi-clock" style="color: #94a3b8"></i>
+                  </div>
+                  <h4>Acknowledge appeal</h4>
+                  <div class="cxm-time">Within 5 working days</div>
+                  <div class="cxm-small mt-1" style="font-size: 13px">CISCM</div>
+                </div>
+                <div class="cxm-tstep cxm-t-amber cxm-reveal">
+                  <div class="d-flex align-items-center gap-2">
+                    <span class="cxm-step-num" style="width: 34px; height: 34px; font-size: 14px">3</span
+                    ><i class="bi bi-clock" style="color: #94a3b8"></i>
+                  </div>
+                  <h4>Appoint reviewer</h4>
+                  <div class="cxm-time">Within 15 working days</div>
+                  <div class="cxm-small mt-1" style="font-size: 13px">CISCM</div>
+                </div>
+                <div class="cxm-tstep cxm-t-rose cxm-reveal">
+                  <div class="d-flex align-items-center gap-2">
+                    <span class="cxm-step-num" style="width: 34px; height: 34px; font-size: 14px">4</span
+                    ><i class="bi bi-clock" style="color: #94a3b8"></i>
+                  </div>
+                  <h4>Provide documentation</h4>
+                  <div class="cxm-time">Within 10 working days of appointment</div>
+                  <div class="cxm-small mt-1" style="font-size: 13px">Appellant</div>
+                </div>
+                <div class="cxm-tstep cxm-t-emerald cxm-reveal">
+                  <div class="d-flex align-items-center gap-2">
+                    <span class="cxm-step-num" style="width: 34px; height: 34px; font-size: 14px">5</span
+                    ><i class="bi bi-clock" style="color: #94a3b8"></i>
+                  </div>
+                  <h4>Decision-maker responds</h4>
+                  <div class="cxm-time">Within 15 working days</div>
+                  <div class="cxm-small mt-1" style="font-size: 13px">Decision-maker</div>
+                </div>
+                <div class="cxm-tstep cxm-t-orange cxm-reveal">
+                  <div class="d-flex align-items-center gap-2">
+                    <span class="cxm-step-num" style="width: 34px; height: 34px; font-size: 14px">6</span
+                    ><i class="bi bi-clock" style="color: #94a3b8"></i>
+                  </div>
+                  <h4>Review &amp; determination</h4>
+                  <div class="cxm-time">Within 30 working days</div>
+                  <div class="cxm-small mt-1" style="font-size: 13px">Appeal reviewer</div>
+                </div>
+                <div class="cxm-tstep cxm-t-sky cxm-reveal">
+                  <div class="d-flex align-items-center gap-2">
+                    <span class="cxm-step-num" style="width: 34px; height: 34px; font-size: 14px">7</span
+                    ><i class="bi bi-clock" style="color: #94a3b8"></i>
+                  </div>
+                  <h4>Communicate outcome</h4>
+                  <div class="cxm-time">Within 5 working days of determination</div>
+                  <div class="cxm-small mt-1" style="font-size: 13px">CISCM</div>
+                </div>
+              </div>
+            </div>
+            <div class="row g-4 mt-3">
+              <div class="col-md-6">
+                <div class="cxm-softbox cxm-t-sky cxm-reveal">
+                  <i class="bi bi-lock cxm-tint" style="font-size: 28px"></i>
+                  <h3 class="cxm-h4 mt-2">Data protection and confidentiality</h3>
+                  <p class="mt-2" style="font-size: 15px">
+                    You can request access to, correction or deletion of your personal data, subject to applicable law. Assessment,
+                    complaint and appeal information is handled separately and disclosed only with consent or where legally required.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="cxm-softbox cxm-t-rose cxm-reveal">
+                  <i class="bi bi-bank2 cxm-tint" style="font-size: 28px"></i>
+                  <h3 class="cxm-h4 mt-2">Commercial transparency</h3>
+                  <p class="mt-2" style="font-size: 15px">
+                    Payment does not guarantee approval, membership grade, credential award, a passing result or any commercial outcome.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="cxm-footer">
+        <svg class="cxm-route cxm-route--footer" viewBox="0 0 1400 300" preserveAspectRatio="none" aria-hidden="true">
+          <defs>
+            <linearGradient id="cxmRouteGrad" x1="0" x2="1">
+              <stop offset="0" stop-color="#FCD34D" />
+              <stop offset=".35" stop-color="#22D3EE" />
+              <stop offset=".7" stop-color="#34D399" />
+              <stop offset="1" stop-color="#F472B6" />
+            </linearGradient>
+          </defs>
+          <path
+            class="cxm-route-line"
+            d="M80 120 C170 40 200 60 260 60 S360 200 420 180 S540 70 610 90 S720 230 780 210 S880 90 940 110 S1060 230 1120 200 S1240 60 1300 80"
+            fill="none"
+            stroke="url(#cxmRouteGrad)"
+            stroke-width="2.5"
+          />
+          <path
+            class="cxm-route-fast"
+            d="M80 220 C300 260 500 120 700 160 S1100 260 1400 150"
+            fill="none"
+            stroke="#22D3EE"
+            stroke-opacity=".35"
+            stroke-width="1.5"
+          />
+          <path
+            class="cxm-route-fast"
+            d="M0 60 C250 0 450 120 700 60 S1150 20 1400 90"
+            fill="none"
+            stroke="#FCD34D"
+            stroke-opacity=".3"
+            stroke-width="1.5"
+          />
+          <circle cx="80" cy="120" r="10" fill="#FCD34D" opacity=".18" class="cxm-route-node" style="animation-delay: 0s" />
+          <circle cx="80" cy="120" r="4.5" fill="#FCD34D" />
+          <circle cx="260" cy="60" r="10" fill="#22D3EE" opacity=".18" class="cxm-route-node" style="animation-delay: 0.4s" />
+          <circle cx="260" cy="60" r="4.5" fill="#22D3EE" />
+          <circle cx="420" cy="180" r="10" fill="#34D399" opacity=".18" class="cxm-route-node" style="animation-delay: 0.8s" />
+          <circle cx="420" cy="180" r="4.5" fill="#34D399" />
+          <circle cx="610" cy="90" r="10" fill="#F472B6" opacity=".18" class="cxm-route-node" style="animation-delay: 1.2s" />
+          <circle cx="610" cy="90" r="4.5" fill="#F472B6" />
+          <circle cx="780" cy="210" r="10" fill="#FB923C" opacity=".18" class="cxm-route-node" style="animation-delay: 1.6s" />
+          <circle cx="780" cy="210" r="4.5" fill="#FB923C" />
+          <circle cx="940" cy="110" r="10" fill="#60A5FA" opacity=".18" class="cxm-route-node" style="animation-delay: 2s" />
+          <circle cx="940" cy="110" r="4.5" fill="#60A5FA" />
+          <circle cx="1120" cy="200" r="10" fill="#FCD34D" opacity=".18" class="cxm-route-node" style="animation-delay: 2.4s" />
+          <circle cx="1120" cy="200" r="4.5" fill="#FCD34D" />
+          <circle cx="1300" cy="80" r="10" fill="#22D3EE" opacity=".18" class="cxm-route-node" style="animation-delay: 2.8s" />
+          <circle cx="1300" cy="80" r="4.5" fill="#22D3EE" />
+        </svg>
+        <span class="cxm-blob" style="left: -80px; bottom: 0; background: rgba(34, 211, 238, 0.18)"></span>
+        <span class="cxm-blob" style="right: 0; top: 40px; background: rgba(249, 115, 22, 0.16)"></span>
+        <div class="cxm-rainbow"></div>
+        <div class="container position-relative py-5">
+          <div class="row g-5 py-3">
+            <div class="col-lg-4">
+              <a class="cxm-logo" href="index.html"
+                ><span class="d-flex align-items-center gap-3" data-cxm-logo
+                  ><span class="cxm-logo-mark"
+                    ><svg viewBox="0 0 40 40" width="28" height="28" aria-hidden="true">
+                      <circle cx="8" cy="20" r="3.2" fill="#FCD34D" />
+                      <circle cx="20" cy="9" r="3.2" fill="#fff" />
+                      <circle cx="20" cy="31" r="3.2" fill="#fff" />
+                      <circle cx="32" cy="20" r="3.2" fill="#34D399" />
+                      <path d="M8 20 L20 9 L32 20 L20 31 Z" fill="none" stroke="#fff" stroke-width="1.8" stroke-opacity=".85" /></svg></span
+                  ><span
+                    ><span class="cxm-logo-name">CISCM</span
+                    ><span class="cxm-logo-sub">Chartered Institute of Supply Chain Mgmt</span></span
+                  ></span
+                ></a
+              >
+              <p class="mt-4">
+                CISCM is a USA-registered independent professional organisation specialising in supply chain, logistics, procurement and
+                operations management.
+              </p>
+              <a class="cxm-footer-mail" href="mailto:info@ciscm.us"
+                ><i class="bi bi-envelope-fill" style="color: #fcd34d"></i>info@ciscm.us</a
+              >
+            </div>
+            <div class="col-6 col-md-3 col-lg-2">
+              <h5>About</h5>
+              <ul>
+                <li><a href="about.html">About CISCM</a></li>
+                <li><a href="professional-standards.html">Professional Standards</a></li>
+                <li><a href="professional-services.html">Professional Services</a></li>
+                <li><a href="contact.html">FAQ</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-3 col-lg-2">
+              <h5>Integrity</h5>
+              <ul>
+                <li><a href="integrity.html#quality">Quality Assurance</a></li>
+                <li><a href="integrity.html#claims">Brand Use</a></li>
+                <li><a href="integrity.html#complaints">Complaints</a></li>
+                <li><a href="integrity.html#appeals">Appeals</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-3 col-lg-2">
+              <h5>Solutions</h5>
+              <ul>
+                <li><a href="solutions.html#employers">Employers</a></li>
+                <li><a href="solutions.html#providers">Education Providers</a></li>
+                <li><a href="solutions.html#academies">Corporate Academies</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-3 col-lg-2">
+              <h5>Resources</h5>
+              <ul>
+                <li><a href="credentials.html">Credentials</a></li>
+                <li><a href="membership.html">Membership</a></li>
+                <li><a href="verify.html">Verify</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="cxm-footer-bottom position-relative">
+          <div class="container d-flex flex-column flex-md-row justify-content-between gap-2 py-4">
+            <span>&copy; <span data-cxm-year>2026</span> Chartered Institute of Supply Chain Management. All rights reserved.</span>
+            <span class="d-flex gap-4"
+              ><a href="https://ciscm.us/privacy_policy">Privacy Policy</a><a href="https://ciscm.us/terms_condition">Terms of Use</a
+              ><a href="https://ciscm.us/accessibility">Accessibility</a></span
+            >
+          </div>
+        </div>
+      </footer>
+      <button class="cxm-totop" aria-label="Back to top"><i class="bi bi-arrow-up"></i></button>
+    </div>
+
+    <!-- Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <!-- CISCM -->
+    <script src="assets/js/ciscm-media.js"></script>
+    <script src="assets/js/ciscm.js"></script>
+  </body>
+</html>

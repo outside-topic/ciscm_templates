@@ -1,0 +1,1038 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CISCM | Chartered Institute of Supply Chain Management</title>
+    <meta
+      name="description"
+      content="CISCM helps professionals, employers and education providers turn supply chain knowledge into demonstrable workplace capability."
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- CISCM styles (all classes prefixed cxm-) -->
+    <link rel="stylesheet" href="assets/css/ciscm.css" />
+  </head>
+  <body>
+    <div class="cxm">
+      <header class="cxm-header">
+        <div class="cxm-rainbow"></div>
+        <nav class="navbar navbar-expand-xl navbar-dark">
+          <div class="container-xxl">
+            <a class="cxm-logo navbar-brand me-0" href="index.html" aria-label="CISCM home"
+              ><span class="d-flex align-items-center gap-3" data-cxm-logo
+                ><span class="cxm-logo-mark"
+                  ><svg viewBox="0 0 40 40" width="28" height="28" aria-hidden="true">
+                    <circle cx="8" cy="20" r="3.2" fill="#FCD34D" />
+                    <circle cx="20" cy="9" r="3.2" fill="#fff" />
+                    <circle cx="20" cy="31" r="3.2" fill="#fff" />
+                    <circle cx="32" cy="20" r="3.2" fill="#34D399" />
+                    <path d="M8 20 L20 9 L32 20 L20 31 Z" fill="none" stroke="#fff" stroke-width="1.8" stroke-opacity=".85" /></svg></span
+                ><span
+                  ><span class="cxm-logo-name">CISCM</span><span class="cxm-logo-sub">Chartered Institute of Supply Chain Mgmt</span></span
+                ></span
+              ></a
+            >
+            <button
+              class="navbar-toggler cxm-burger"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#cxmNav"
+              aria-controls="cxmNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="bi bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end cxm-nav" id="cxmNav">
+              <ul class="navbar-nav align-items-xl-center gap-xl-1">
+                <li class="nav-item"><a class="nav-link cxm-nav-link cxm-active" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link cxm-nav-link" href="membership.html">Membership</a></li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link cxm-nav-link dropdown-toggle"
+                    href="accreditation.html"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    data-bs-auto-close="true"
+                    aria-expanded="false"
+                    >Accreditation</a
+                  >
+                  <div class="dropdown-menu cxm-dd">
+                    <a class="dropdown-item" href="accreditation.html">Accreditation overview</a
+                    ><a class="dropdown-item" href="accreditation.html#overview">Accreditation Overview</a
+                    ><a class="dropdown-item" href="accreditation.html#institutional">Institutional Accreditation</a
+                    ><a class="dropdown-item" href="accreditation.html#program">Program Accreditation</a>
+                  </div>
+                </li>
+                <li class="nav-item"><a class="nav-link cxm-nav-link" href="credentials.html">Credentials</a></li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link cxm-nav-link dropdown-toggle"
+                    href="solutions.html"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    data-bs-auto-close="true"
+                    aria-expanded="false"
+                    >Solutions for Organizations</a
+                  >
+                  <div class="dropdown-menu cxm-dd">
+                    <a class="dropdown-item" href="solutions.html">Solutions for Organizations overview</a
+                    ><a class="dropdown-item" href="solutions.html#employers">Employers</a
+                    ><a class="dropdown-item" href="solutions.html#providers">Education Providers</a
+                    ><a class="dropdown-item" href="solutions.html#academies">Corporate Academies</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link cxm-nav-link dropdown-toggle"
+                    href="integrity.html"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    data-bs-auto-close="true"
+                    aria-expanded="false"
+                    >Integrity</a
+                  >
+                  <div class="dropdown-menu cxm-dd dropdown-menu-xl-end">
+                    <a class="dropdown-item" href="integrity.html">Integrity overview</a
+                    ><a class="dropdown-item" href="integrity.html#quality">Quality Assurance</a
+                    ><a class="dropdown-item" href="integrity.html#claims">Public Claims and Brand Use</a
+                    ><a class="dropdown-item" href="integrity.html#complaints">Complaints</a
+                    ><a class="dropdown-item" href="integrity.html#appeals">Appeals</a>
+                  </div>
+                </li>
+                <li class="nav-item"><a class="nav-link cxm-nav-link" href="contact.html">Contact</a></li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link cxm-nav-link dropdown-toggle"
+                    href="verify.html"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    data-bs-auto-close="true"
+                    aria-expanded="false"
+                    >Verify</a
+                  >
+                  <div class="dropdown-menu cxm-dd dropdown-menu-xl-end">
+                    <a class="dropdown-item" href="verify.html">Verify overview</a
+                    ><a class="dropdown-item" href="verify.html#program">Program Verify</a
+                    ><a class="dropdown-item" href="verify.html#accreditation">Accreditation Verify</a
+                    ><a class="dropdown-item" href="verify.html#member">Member Verify</a>
+                  </div>
+                </li>
+                <li class="nav-item d-xl-none"><a class="nav-link cxm-nav-link" href="about.html">About</a></li>
+                <li class="nav-item d-xl-none">
+                  <a class="nav-link cxm-nav-link" href="professional-standards.html">Professional Standards</a>
+                </li>
+                <li class="nav-item d-xl-none">
+                  <a class="nav-link cxm-nav-link" href="professional-services.html">Professional Services</a>
+                </li>
+              </ul>
+              <a class="cxm-btn cxm-btn--primary cxm-join ms-xl-3" href="membership.html">Join CISCM</a>
+            </div>
+          </div>
+        </nav>
+        <div class="cxm-topbar d-none d-xl-block">
+          <div class="container-xxl d-flex justify-content-end gap-4 py-1">
+            <a href="about.html" class="">About</a><a href="credentials.html" class="">Credentials</a
+            ><a href="professional-standards.html" class="">Professional Standards</a
+            ><a href="professional-services.html" class="">Professional Services</a>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="cxm-hero" data-cxm-scope>
+          <div class="cxm-media">
+            <div class="cxm-media-photo" data-cxm-photo="port"></div>
+            <div class="cxm-media-video" data-cxm-video="homeHero"></div>
+          </div>
+          <div class="cxm-overlay cxm-ov-navy"></div>
+          <div class="cxm-gridlines"></div>
+          <svg class="cxm-route" viewBox="0 0 1400 300" preserveAspectRatio="none" aria-hidden="true">
+            <defs>
+              <linearGradient id="cxmRouteGrad" x1="0" x2="1">
+                <stop offset="0" stop-color="#FCD34D" />
+                <stop offset=".35" stop-color="#22D3EE" />
+                <stop offset=".7" stop-color="#34D399" />
+                <stop offset="1" stop-color="#F472B6" />
+              </linearGradient>
+            </defs>
+            <path
+              class="cxm-route-line"
+              d="M80 120 C170 40 200 60 260 60 S360 200 420 180 S540 70 610 90 S720 230 780 210 S880 90 940 110 S1060 230 1120 200 S1240 60 1300 80"
+              fill="none"
+              stroke="url(#cxmRouteGrad)"
+              stroke-width="2.5"
+            />
+            <path
+              class="cxm-route-fast"
+              d="M80 220 C300 260 500 120 700 160 S1100 260 1400 150"
+              fill="none"
+              stroke="#22D3EE"
+              stroke-opacity=".35"
+              stroke-width="1.5"
+            />
+            <path
+              class="cxm-route-fast"
+              d="M0 60 C250 0 450 120 700 60 S1150 20 1400 90"
+              fill="none"
+              stroke="#FCD34D"
+              stroke-opacity=".3"
+              stroke-width="1.5"
+            />
+            <circle cx="80" cy="120" r="10" fill="#FCD34D" opacity=".18" class="cxm-route-node" style="animation-delay: 0s" />
+            <circle cx="80" cy="120" r="4.5" fill="#FCD34D" />
+            <circle cx="260" cy="60" r="10" fill="#22D3EE" opacity=".18" class="cxm-route-node" style="animation-delay: 0.4s" />
+            <circle cx="260" cy="60" r="4.5" fill="#22D3EE" />
+            <circle cx="420" cy="180" r="10" fill="#34D399" opacity=".18" class="cxm-route-node" style="animation-delay: 0.8s" />
+            <circle cx="420" cy="180" r="4.5" fill="#34D399" />
+            <circle cx="610" cy="90" r="10" fill="#F472B6" opacity=".18" class="cxm-route-node" style="animation-delay: 1.2s" />
+            <circle cx="610" cy="90" r="4.5" fill="#F472B6" />
+            <circle cx="780" cy="210" r="10" fill="#FB923C" opacity=".18" class="cxm-route-node" style="animation-delay: 1.6s" />
+            <circle cx="780" cy="210" r="4.5" fill="#FB923C" />
+            <circle cx="940" cy="110" r="10" fill="#60A5FA" opacity=".18" class="cxm-route-node" style="animation-delay: 2s" />
+            <circle cx="940" cy="110" r="4.5" fill="#60A5FA" />
+            <circle cx="1120" cy="200" r="10" fill="#FCD34D" opacity=".18" class="cxm-route-node" style="animation-delay: 2.4s" />
+            <circle cx="1120" cy="200" r="4.5" fill="#FCD34D" />
+            <circle cx="1300" cy="80" r="10" fill="#22D3EE" opacity=".18" class="cxm-route-node" style="animation-delay: 2.8s" />
+            <circle cx="1300" cy="80" r="4.5" fill="#22D3EE" />
+          </svg>
+          <div class="container cxm-container">
+            <div class="row align-items-center g-5">
+              <div class="col-lg-7">
+                <div data-cxm-intro><span class="cxm-pill cxm-pill--light">Body of Knowledge · Second Edition 2026</span></div>
+                <h1 class="mt-4" data-cxm-intro>
+                  Define competence.<br /><span class="cxm-grad-text">Build supply chains that perform.</span>
+                </h1>
+                <p class="cxm-hero-text" data-cxm-intro>
+                  CISCM helps professionals, employers and education providers turn supply chain knowledge into demonstrable workplace
+                  capability.
+                </p>
+                <div class="cxm-btns mt-5" data-cxm-intro>
+                  <a class="cxm-btn cxm-btn--primary" href="credentials.html">Find your pathway<i class="bi bi-arrow-right"></i></a
+                  ><a class="cxm-btn cxm-btn--glass" href="accreditation.html">Accreditation overview<i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+              <div class="col-lg-5 d-none d-lg-block" data-cxm-intro>
+                <div class="cxm-glass cxm-float">
+                  <div class="cxm-eyebrow" style="color: #a5f3fc">The Four Currents</div>
+                  <div class="row g-3 mt-1">
+                    <div class="col-6">
+                      <a href="professional-standards.html#currents" class="cxm-gstat cxm-t-orange d-block" style="padding: 18px"
+                        ><i class="bi bi-box-seam" style="font-size: 24px"></i>
+                        <div class="cxm-h4 mt-2" style="color: #fff">Material</div>
+                        <div style="font-size: 12.5px; font-weight: 700; color: rgba(255, 255, 255, 0.85)">
+                          Domains 03 · 06 · 07 · 14
+                        </div></a
+                      >
+                    </div>
+                    <div class="col-6">
+                      <a href="professional-standards.html#currents" class="cxm-gstat cxm-t-emerald d-block" style="padding: 18px"
+                        ><i class="bi bi-currency-dollar" style="font-size: 24px"></i>
+                        <div class="cxm-h4 mt-2" style="color: #fff">Money</div>
+                        <div style="font-size: 12.5px; font-weight: 700; color: rgba(255, 255, 255, 0.85)">Domains 04 · 10</div></a
+                      >
+                    </div>
+                    <div class="col-6">
+                      <a href="professional-standards.html#currents" class="cxm-gstat cxm-t-sky d-block" style="padding: 18px"
+                        ><i class="bi bi-database" style="font-size: 24px"></i>
+                        <div class="cxm-h4 mt-2" style="color: #fff">Information</div>
+                        <div style="font-size: 12.5px; font-weight: 700; color: rgba(255, 255, 255, 0.85)">Domains 02 · 11</div></a
+                      >
+                    </div>
+                    <div class="col-6">
+                      <a href="professional-standards.html#currents" class="cxm-gstat cxm-t-rose d-block" style="padding: 18px"
+                        ><i class="bi bi-shield-check" style="font-size: 24px"></i>
+                        <div class="cxm-h4 mt-2" style="color: #fff">Trust</div>
+                        <div style="font-size: 12.5px; font-weight: 700; color: rgba(255, 255, 255, 0.85)">
+                          Domains 05 · 08 · 09 · 12
+                        </div></a
+                      >
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex align-items-center gap-2 mt-3 p-3"
+                    style="border-radius: 16px; background: rgba(255, 255, 255, 0.1); font-size: 14px; font-weight: 700"
+                  >
+                    <i class="bi bi-compass" style="color: #fcd34d"></i>Strategy (01) and Leadership (13) span all four
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="cxm-vid-toggle" data-cxm-vid-toggle aria-label="Pause background video"><i class="bi bi-pause-fill"></i></button>
+          <svg class="cxm-wave" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true">
+            <path fill="currentColor" d="M0,40 C240,95 480,0 720,30 C960,60 1200,90 1440,35 L1440,90 L0,90 Z" />
+          </svg>
+        </section>
+        <div class="container">
+          <div class="cxm-stats cxm-reveal">
+            <div class="row g-3">
+              <div class="col-6 col-md-3">
+                <div class="cxm-stat cxm-t-orange">
+                  <span class="cxm-ico cxm-ico--sm cxm-t-orange"><i class="bi bi-signpost-split"></i></span>
+                  <div class="cxm-stat-num" data-cxm-count="4">4</div>
+                  <div class="cxm-stat-label">Currents</div>
+                </div>
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="cxm-stat cxm-t-sky">
+                  <span class="cxm-ico cxm-ico--sm cxm-t-sky"><i class="bi bi-layers"></i></span>
+                  <div class="cxm-stat-num" data-cxm-count="14">14</div>
+                  <div class="cxm-stat-label">Competence domains</div>
+                </div>
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="cxm-stat cxm-t-emerald">
+                  <span class="cxm-ico cxm-ico--sm cxm-t-emerald"><i class="bi bi-diagram-3"></i></span>
+                  <div class="cxm-stat-num" data-cxm-count="72">72</div>
+                  <div class="cxm-stat-label">Competency units</div>
+                </div>
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="cxm-stat cxm-t-rose">
+                  <span class="cxm-ico cxm-ico--sm cxm-t-rose"><i class="bi bi-speedometer2"></i></span>
+                  <div class="cxm-stat-num" data-cxm-count="5">5</div>
+                  <div class="cxm-stat-label">Proficiency levels</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class="text-center cxm-small mt-3 fw-bold">
+            Five proficiency levels, from <span style="color: #0284c7">Aware</span> to <span style="color: #e11d48">Authoritative</span>.
+          </p>
+        </div>
+        <section class="cxm-section">
+          <div class="container cxm-container">
+            <div class="d-flex flex-wrap justify-content-between align-items-end gap-3">
+              <div class="cxm-head mb-4 cxm-reveal">
+                <span class="cxm-pill cxm-t-sky">Why CISCM</span>
+                <h2 class="cxm-title">One standard for the <span class="cxm-grad-text-warm">whole supply chain</span></h2>
+              </div>
+              <div class="cxm-swiper-nav mb-5" data-cxm-swiper-nav>
+                <button class="cxm-swiper-btn" data-prev aria-label="Previous"><i class="bi bi-arrow-left"></i></button
+                ><button class="cxm-swiper-btn" data-next aria-label="Next"><i class="bi bi-arrow-right"></i></button>
+              </div>
+            </div>
+            <div class="swiper cxm-swiper" data-cxm-swiper="teasers" style="--cxm-tile-h: 380px">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a class="cxm-tile cxm-shade-sky" href="professional-standards.html"
+                    ><span class="cxm-tile-bg" data-cxm-photo="standards"></span>
+                    <h3>01 · Professional standards</h3>
+                    <span class="cxm-tile-sub"
+                      >A published Body of Knowledge that defines what supply chain professionals should be able to do.</span
+                    ><span class="cxm-tile-cta">Explore <i class="bi bi-arrow-right"></i></span
+                  ></a>
+                </div>
+                <div class="swiper-slide">
+                  <a class="cxm-tile cxm-shade-emerald" href="membership.html#cpd"
+                    ><span class="cxm-tile-bg" data-cxm-photo="credentials"></span>
+                    <h3>02 · Professional development</h3>
+                    <span class="cxm-tile-sub">Close capability gaps through the route that suits you.</span
+                    ><span class="cxm-tile-cta">Explore <i class="bi bi-arrow-right"></i></span
+                  ></a>
+                </div>
+                <div class="swiper-slide">
+                  <a class="cxm-tile cxm-shade-orange" href="credentials.html"
+                    ><span class="cxm-tile-bg" data-cxm-photo="containers"></span>
+                    <h3>03 · Industry recognition</h3>
+                    <span class="cxm-tile-sub">Credentials that signal assessed, verifiable competence.</span
+                    ><span class="cxm-tile-cta">Explore <i class="bi bi-arrow-right"></i></span
+                  ></a>
+                </div>
+                <div class="swiper-slide">
+                  <a class="cxm-tile cxm-shade-blue" href="about.html#sectors"
+                    ><span class="cxm-tile-bg" data-cxm-photo="port"></span>
+                    <h3>04 · Global supply chains</h3>
+                    <span class="cxm-tile-sub">Sector-neutral, built for work across borders and cultures.</span
+                    ><span class="cxm-tile-cta">Explore <i class="bi bi-arrow-right"></i></span
+                  ></a>
+                </div>
+                <div class="swiper-slide">
+                  <a class="cxm-tile cxm-shade-rose" href="membership.html"
+                    ><span class="cxm-tile-bg" data-cxm-photo="aboutHero"></span>
+                    <h3>05 · Professional excellence</h3>
+                    <span class="cxm-tile-sub">Membership grades that recognise standing, conduct and contribution.</span
+                    ><span class="cxm-tile-cta">Explore <i class="bi bi-arrow-right"></i></span
+                  ></a>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </section>
+        <div class="cxm-section--soft py-4">
+          <div class="cxm-marquee">
+            <div class="cxm-marquee-track">
+              <span class="cxm-chip cxm-t-blue">Manufacturing</span><span class="cxm-chip cxm-t-teal">Retail &amp; consumer goods</span
+              ><span class="cxm-chip cxm-t-amber">Logistics services</span
+              ><span class="cxm-chip cxm-t-rose">Healthcare &amp; pharmaceuticals</span
+              ><span class="cxm-chip cxm-t-emerald">Technology</span><span class="cxm-chip cxm-t-orange">Energy &amp; resources</span
+              ><span class="cxm-chip cxm-t-sky">Public services</span
+              ><span class="cxm-chip cxm-t-cyan">Development &amp; humanitarian operations</span
+              ><span class="cxm-chip cxm-t-blue">Supply-intensive sectors</span><span class="cxm-chip cxm-t-blue">Manufacturing</span
+              ><span class="cxm-chip cxm-t-teal">Retail &amp; consumer goods</span
+              ><span class="cxm-chip cxm-t-amber">Logistics services</span
+              ><span class="cxm-chip cxm-t-rose">Healthcare &amp; pharmaceuticals</span
+              ><span class="cxm-chip cxm-t-emerald">Technology</span><span class="cxm-chip cxm-t-orange">Energy &amp; resources</span
+              ><span class="cxm-chip cxm-t-sky">Public services</span
+              ><span class="cxm-chip cxm-t-cyan">Development &amp; humanitarian operations</span
+              ><span class="cxm-chip cxm-t-blue">Supply-intensive sectors</span>
+            </div>
+          </div>
+        </div>
+        <section class="cxm-section">
+          <div class="container cxm-container">
+            <div class="cxm-head cxm-head--center cxm-reveal">
+              <span class="cxm-pill cxm-t-emerald">The CISCM approach</span>
+              <h2 class="cxm-title">Six principles behind every decision</h2>
+            </div>
+            <div class="row g-4">
+              <div class="col-md-6 col-lg-4">
+                <div class="cxm-card cxm-t-blue cxm-reveal">
+                  <span class="cxm-ico cxm-t-blue"><i class="bi bi-globe2"></i></span>
+                  <h3>End-to-end scope</h3>
+                  <p>Strategy, planning, sourcing, operations, logistics, finance, data and trust treated as one connected system.</p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="cxm-card cxm-t-teal cxm-reveal">
+                  <span class="cxm-ico cxm-t-teal"><i class="bi bi-shield-check"></i></span>
+                  <h3>A Trust current</h3>
+                  <p>Compliance, risk, ethics and sustainability are core professional competence, not an add-on.</p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="cxm-card cxm-t-amber cxm-reveal">
+                  <span class="cxm-ico cxm-t-amber"><i class="bi bi-bullseye"></i></span>
+                  <h3>Performance-based standards</h3>
+                  <p>Every competency unit is written as observable performance criteria.</p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="cxm-card cxm-t-rose cxm-reveal">
+                  <span class="cxm-ico cxm-t-rose"><i class="bi bi-speedometer2"></i></span>
+                  <h3>Proficiency over familiarity</h3>
+                  <p>Recognition depends on the level of capability shown, not on topics covered.</p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="cxm-card cxm-t-emerald cxm-reveal">
+                  <span class="cxm-ico cxm-t-emerald"><i class="bi bi-signpost-split"></i></span>
+                  <h3>Open preparation routes</h3>
+                  <p>No single mandatory course: experience, self-study, employers, academia or providers.</p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="cxm-card cxm-t-orange cxm-reveal">
+                  <span class="cxm-ico cxm-t-orange"><i class="bi bi-patch-check"></i></span>
+                  <h3>Evidence-based recognition</h3>
+                  <p>Every status is backed by verifiable evidence and limited to its approved scope.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="cxm-band" data-cxm-scope>
+          <div class="cxm-media">
+            <div class="cxm-media-photo" data-cxm-photo="containers"></div>
+            <div class="cxm-media-video" data-cxm-video="homeBand"></div>
+          </div>
+          <div class="cxm-overlay cxm-ov-navy"></div>
+          <div class="container cxm-container cxm-on-dark">
+            <div class="cxm-head cxm-reveal">
+              <span class="cxm-pill cxm-pill--light">Four Currents framework</span>
+              <h2 class="cxm-title">Every supply chain problem flows through four currents</h2>
+              <p class="cxm-lead">
+                Material, Money, Information and Trust help professionals see how problems connect across functions. Hover a current to
+                explore it.
+              </p>
+            </div>
+            <div class="row g-4" data-cxm-currents>
+              <div class="col-lg-6">
+                <div class="row g-3 h-100">
+                  <div class="col-6">
+                    <button class="cxm-cur-btn cxm-t-orange" data-cxm-cur="material" type="button">
+                      <span class="cxm-ico cxm-t-orange"><i class="bi bi-box-seam"></i></span>
+                      <h4>Material</h4>
+                      <small>Domains 03 · 06 · 07 · 14</small
+                      ><svg class="cxm-cur-wave" viewBox="0 0 200 40" preserveAspectRatio="none" aria-hidden="true">
+                        <path class="cxm-route-fast" d="M0 30 C50 10 100 40 200 15" fill="none" stroke="#fff" stroke-width="2" />
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="col-6">
+                    <button class="cxm-cur-btn cxm-t-emerald" data-cxm-cur="money" type="button">
+                      <span class="cxm-ico cxm-t-emerald"><i class="bi bi-currency-dollar"></i></span>
+                      <h4>Money</h4>
+                      <small>Domains 04 · 10</small
+                      ><svg class="cxm-cur-wave" viewBox="0 0 200 40" preserveAspectRatio="none" aria-hidden="true">
+                        <path class="cxm-route-fast" d="M0 30 C50 10 100 40 200 15" fill="none" stroke="#fff" stroke-width="2" />
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="col-6">
+                    <button class="cxm-cur-btn cxm-t-sky" data-cxm-cur="information" type="button">
+                      <span class="cxm-ico cxm-t-sky"><i class="bi bi-database"></i></span>
+                      <h4>Information</h4>
+                      <small>Domains 02 · 11</small
+                      ><svg class="cxm-cur-wave" viewBox="0 0 200 40" preserveAspectRatio="none" aria-hidden="true">
+                        <path class="cxm-route-fast" d="M0 30 C50 10 100 40 200 15" fill="none" stroke="#fff" stroke-width="2" />
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="col-6">
+                    <button class="cxm-cur-btn cxm-t-rose" data-cxm-cur="trust" type="button">
+                      <span class="cxm-ico cxm-t-rose"><i class="bi bi-shield-check"></i></span>
+                      <h4>Trust</h4>
+                      <small>Domains 05 · 08 · 09 · 12</small
+                      ><svg class="cxm-cur-wave" viewBox="0 0 200 40" preserveAspectRatio="none" aria-hidden="true">
+                        <path class="cxm-route-fast" d="M0 30 C50 10 100 40 200 15" fill="none" stroke="#fff" stroke-width="2" />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="cxm-cur-panel cxm-t-orange" aria-live="polite">
+                  <i class="cxm-gcard-icon bi bi-box-seam" data-cxm-f="icon"></i>
+                  <div class="position-relative">
+                    <div class="cxm-eyebrow" style="color: rgba(255, 255, 255, 0.8)" data-cxm-f="eyebrow">The Material current</div>
+                    <h3 data-cxm-f="flows">Physical goods, capacity and assets</h3>
+                    <div class="cxm-cur-q">
+                      <div class="cxm-eyebrow" style="color: rgba(255, 255, 255, 0.8); font-size: 11.5px">Core professional question</div>
+                      <p data-cxm-f="q"></p>
+                    </div>
+                    <div class="mt-4" data-cxm-f="domains"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="cxm-section">
+          <div class="container cxm-container">
+            <div class="cxm-head cxm-reveal">
+              <span class="cxm-pill cxm-t-orange">Pathways</span>
+              <h2 class="cxm-title">Where do you fit?</h2>
+            </div>
+            <div class="row g-4">
+              <div class="col-md-6 col-lg-3">
+                <a class="cxm-tile cxm-shade-blue cxm-reveal" href="credentials.html" style="min-height: 390px"
+                  ><span class="cxm-tile-bg" data-cxm-photo="credentials"></span
+                  ><span class="cxm-ico cxm-ico--sm" style="background: rgba(255, 255, 255, 0.2); box-shadow: none"
+                    ><i class="bi bi-briefcase"></i
+                  ></span>
+                  <h3 class="mt-3">Professionals</h3>
+                  <span style="font-size: 15px; color: rgba(255, 255, 255, 0.88); margin-top: 6px"
+                    >Choose a credential that matches your responsibilities and evidence.</span
+                  ><span class="cxm-tile-cta">Explore <i class="bi bi-arrow-right"></i></span
+                ></a>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <a class="cxm-tile cxm-shade-emerald cxm-reveal" href="membership.html" style="min-height: 390px"
+                  ><span class="cxm-tile-bg" data-cxm-photo="membershipHero"></span
+                  ><span class="cxm-ico cxm-ico--sm" style="background: rgba(255, 255, 255, 0.2); box-shadow: none"
+                    ><i class="bi bi-people"></i
+                  ></span>
+                  <h3 class="mt-3">Members</h3>
+                  <span style="font-size: 15px; color: rgba(255, 255, 255, 0.88); margin-top: 6px"
+                    >Build professional standing through conduct, CPD and contribution.</span
+                  ><span class="cxm-tile-cta">Explore <i class="bi bi-arrow-right"></i></span
+                ></a>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <a class="cxm-tile cxm-shade-orange cxm-reveal" href="solutions.html#providers" style="min-height: 390px"
+                  ><span class="cxm-tile-bg" data-cxm-photo="providers"></span
+                  ><span class="cxm-ico cxm-ico--sm" style="background: rgba(255, 255, 255, 0.2); box-shadow: none"
+                    ><i class="bi bi-mortarboard"></i
+                  ></span>
+                  <h3 class="mt-3">Education &amp; training providers</h3>
+                  <span style="font-size: 15px; color: rgba(255, 255, 255, 0.88); margin-top: 6px"
+                    >Map programmes to the Body of Knowledge and seek recognition.</span
+                  ><span class="cxm-tile-cta">Explore <i class="bi bi-arrow-right"></i></span
+                ></a>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <a class="cxm-tile cxm-shade-rose cxm-reveal" href="solutions.html#employers" style="min-height: 390px"
+                  ><span class="cxm-tile-bg" data-cxm-photo="employers"></span
+                  ><span class="cxm-ico cxm-ico--sm" style="background: rgba(255, 255, 255, 0.2); box-shadow: none"
+                    ><i class="bi bi-building"></i
+                  ></span>
+                  <h3 class="mt-3">Employers &amp; corporate academies</h3>
+                  <span style="font-size: 15px; color: rgba(255, 255, 255, 0.88); margin-top: 6px"
+                    >Turn the standard into a workforce capability system.</span
+                  ><span class="cxm-tile-cta">Explore <i class="bi bi-arrow-right"></i></span
+                ></a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="cxm-section cxm-section--soft">
+          <div class="container cxm-container">
+            <div class="cxm-head cxm-head--center cxm-reveal">
+              <span class="cxm-pill cxm-t-blue">Credentials</span>
+              <h2 class="cxm-title">Three credentials. One clear progression of capability.</h2>
+            </div>
+            <div class="row g-4 align-items-end">
+              <div class="col-lg-4">
+                <div class="cxm-cred cxm-t-sky cxm-reveal" style="">
+                  <div class="cxm-cred-top" style="min-height: 170px">
+                    <div class="cxm-eyebrow" style="color: rgba(255, 255, 255, 0.85)">Specialist depth</div>
+                    <div class="cxm-cred-code">CFS</div>
+                    <div class="cxm-cred-name">Certified Functional Specialist</div>
+                    <div class="position-absolute" style="right: 24px; bottom: 20px">
+                      <span class="cxm-meter"
+                        ><i class="cxm-on" style="height: 24px"></i><i class="cxm-on" style="height: 24px"></i
+                        ><i class="cxm-on" style="height: 24px"></i><i class="" style="height: 24px"></i
+                        ><i class="" style="height: 24px"></i
+                      ></span>
+                    </div>
+                  </div>
+                  <div class="cxm-cred-body">
+                    <div class="cxm-eyebrow" style="color: #94a3b8">Governing proficiency</div>
+                    <p class="mt-1 fw-bold" style="color: var(--cxm-ink)">Level 3 (Analytical) in one defined functional area</p>
+                    <p class="mt-3">Diagnoses problems, selects methods and delivers defensible analysis within its function.</p>
+                    <div class="mt-3">
+                      <a class="cxm-btn cxm-btn--link" href="credentials.html#cfs">View credential<i class="bi bi-arrow-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="cxm-cred cxm-t-teal cxm-reveal" style="">
+                  <div class="cxm-cred-top" style="min-height: 200px">
+                    <div class="cxm-eyebrow" style="color: rgba(255, 255, 255, 0.85)">End-to-end practice</div>
+                    <div class="cxm-cred-code">CP</div>
+                    <div class="cxm-cred-name">Certified Professional</div>
+                    <div class="position-absolute" style="right: 24px; bottom: 20px">
+                      <span class="cxm-meter"
+                        ><i class="cxm-on" style="height: 24px"></i><i class="cxm-on" style="height: 24px"></i
+                        ><i class="cxm-on" style="height: 24px"></i><i class="" style="height: 24px"></i
+                        ><i class="" style="height: 24px"></i
+                      ></span>
+                    </div>
+                  </div>
+                  <div class="cxm-cred-body">
+                    <div class="cxm-eyebrow" style="color: #94a3b8">Governing proficiency</div>
+                    <p class="mt-1 fw-bold" style="color: var(--cxm-ink)">Level 3 in core domains; Level 2 elsewhere</p>
+                    <p class="mt-3">Applies the end-to-end framework and analyses problems across connected functions.</p>
+                    <div class="mt-3">
+                      <a class="cxm-btn cxm-btn--link" href="credentials.html#cp">View credential<i class="bi bi-arrow-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="cxm-cred cxm-t-amber cxm-reveal" style="transform: scale(1.04)">
+                  <div class="cxm-cred-top" style="min-height: 230px">
+                    <div class="cxm-eyebrow" style="color: rgba(255, 255, 255, 0.85)">Chartered tier</div>
+                    <div class="cxm-cred-code">ChSCP</div>
+                    <div class="cxm-cred-name">Chartered Supply Chain Professional</div>
+                    <div class="position-absolute" style="right: 24px; bottom: 20px">
+                      <span class="cxm-meter"
+                        ><i class="cxm-on" style="height: 24px"></i><i class="cxm-on" style="height: 24px"></i
+                        ><i class="cxm-on" style="height: 24px"></i><i class="cxm-on" style="height: 24px"></i
+                        ><i class="" style="height: 24px"></i
+                      ></span>
+                    </div>
+                  </div>
+                  <div class="cxm-cred-body">
+                    <div class="cxm-eyebrow" style="color: #94a3b8">Governing proficiency</div>
+                    <p class="mt-1 fw-bold" style="color: var(--cxm-ink)">Level 4 (Architectural) across most domains</p>
+                    <p class="mt-3">Designs systems, integrates trade-offs and defends enterprise-level decisions.</p>
+                    <div class="mt-3">
+                      <a class="cxm-btn cxm-btn--link" href="credentials.html#chscp">View credential<i class="bi bi-arrow-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="cxm-section">
+          <div class="container cxm-container">
+            <div class="row g-5 align-items-center">
+              <div class="col-lg-4">
+                <div class="cxm-head cxm-reveal">
+                  <span class="cxm-pill cxm-t-rose">Accreditation</span>
+                  <h2 class="cxm-title">Recognition for institutions and programmes that deliver real competence</h2>
+                </div>
+                <a class="cxm-btn cxm-btn--dark" href="accreditation.html">Accreditation overview<i class="bi bi-arrow-right"></i></a>
+              </div>
+              <div class="col-lg-8">
+                <div class="row g-3">
+                  <div class="col-sm-4">
+                    <div style="height: 340px">
+                      <a class="cxm-tile cxm-shade-rose cxm-reveal" href="accreditation.html#institutional"
+                        ><span class="cxm-tile-bg" data-cxm-photo="institutional"></span>
+                        <h3>Institutional</h3>
+                        <span class="cxm-tile-sub">The quality system behind professional learning.</span
+                        ><span class="cxm-tile-cta">Learn more <i class="bi bi-arrow-right"></i></span
+                      ></a>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div style="height: 340px">
+                      <a class="cxm-tile cxm-shade-orange cxm-reveal" href="accreditation.html#program"
+                        ><span class="cxm-tile-bg" data-cxm-photo="program"></span>
+                        <h3>Programme</h3>
+                        <span class="cxm-tile-sub">Certificates, executive programmes, short courses and micro-credentials.</span
+                        ><span class="cxm-tile-cta">Learn more <i class="bi bi-arrow-right"></i></span
+                      ></a>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div style="height: 340px">
+                      <a class="cxm-tile cxm-shade-sky cxm-reveal" href="accreditation.html#routes"
+                        ><span class="cxm-tile-bg" data-cxm-photo="accreditation"></span>
+                        <h3>Approved provider / delivery centre</h3>
+                        <span class="cxm-tile-sub">Authorised delivery of defined programmes at named sites.</span
+                        ><span class="cxm-tile-cta">Learn more <i class="bi bi-arrow-right"></i></span
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="cxm-section cxm-section--sun">
+          <div class="container cxm-container">
+            <div class="row g-5 align-items-center">
+              <div class="col-lg-6">
+                <div class="cxm-book cxm-reveal">
+                  <div class="cxm-book-inner">
+                    <i class="bi bi-journal-bookmark-fill" style="font-size: 48px; color: #fcd34d"></i>
+                    <div class="cxm-eyebrow mt-4" style="color: #a5f3fc">CISCM</div>
+                    <h3>Body of Knowledge</h3>
+                    <div class="mt-2 fw-bold" style="color: rgba(255, 255, 255, 0.7)">Second Edition · 2026</div>
+                    <div class="cxm-book-bars">
+                      <span class="cxm-t-orange cxm-grad"></span><span class="cxm-t-emerald cxm-grad"></span
+                      ><span class="cxm-t-sky cxm-grad"></span><span class="cxm-t-rose cxm-grad"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="cxm-head mb-4 cxm-reveal">
+                  <span class="cxm-pill cxm-t-amber">Body of Knowledge</span>
+                  <h2 class="cxm-title">Every competency unit, fully worked</h2>
+                  <p class="cxm-lead">Each of the 72 competency units now includes:</p>
+                </div>
+                <div class="row g-3">
+                  <div class="col-sm-6">
+                    <div
+                      class="d-flex align-items-center gap-3 p-3 h-100"
+                      style="border-radius: 18px; background: #fff; box-shadow: var(--cxm-shadow)"
+                    >
+                      <span class="cxm-ico cxm-ico--sm cxm-t-blue"><i class="bi bi-chat-square-text"></i></span>
+                      <div>
+                        <div class="cxm-h4" style="font-size: 17px">Commentary</div>
+                        <div class="cxm-small">Why the competence matters</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div
+                      class="d-flex align-items-center gap-3 p-3 h-100"
+                      style="border-radius: 18px; background: #fff; box-shadow: var(--cxm-shadow)"
+                    >
+                      <span class="cxm-ico cxm-ico--sm cxm-t-teal"><i class="bi bi-book"></i></span>
+                      <div>
+                        <div class="cxm-h4" style="font-size: 17px">Knowledge elements</div>
+                        <div class="cxm-small">What must be understood</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div
+                      class="d-flex align-items-center gap-3 p-3 h-100"
+                      style="border-radius: 18px; background: #fff; box-shadow: var(--cxm-shadow)"
+                    >
+                      <span class="cxm-ico cxm-ico--sm cxm-t-amber"><i class="bi bi-clipboard-check"></i></span>
+                      <div>
+                        <div class="cxm-h4" style="font-size: 17px">Performance criteria</div>
+                        <div class="cxm-small">What competent work looks like</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div
+                      class="d-flex align-items-center gap-3 p-3 h-100"
+                      style="border-radius: 18px; background: #fff; box-shadow: var(--cxm-shadow)"
+                    >
+                      <span class="cxm-ico cxm-ico--sm cxm-t-rose"><i class="bi bi-search"></i></span>
+                      <div>
+                        <div class="cxm-h4" style="font-size: 17px">Worked example</div>
+                        <div class="cxm-small">An extended, realistic case</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div
+                      class="d-flex align-items-center gap-3 p-3 h-100"
+                      style="border-radius: 18px; background: #fff; box-shadow: var(--cxm-shadow)"
+                    >
+                      <span class="cxm-ico cxm-ico--sm cxm-t-emerald"><i class="bi bi-exclamation-triangle"></i></span>
+                      <div>
+                        <div class="cxm-h4" style="font-size: 17px">Three failure modes</div>
+                        <div class="cxm-small">How weakness shows up in practice</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="mt-4">
+                  <a class="cxm-btn cxm-btn--primary" href="professional-standards.html"
+                    >Explore the professional standard<i class="bi bi-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="cxm-band" data-cxm-scope>
+          <div class="cxm-media"><div class="cxm-media-photo" data-cxm-photo="qualityHero"></div></div>
+          <div class="cxm-overlay cxm-ov-fuchsia"></div>
+          <div class="container cxm-container cxm-on-dark">
+            <div class="row align-items-center g-4">
+              <div class="col-lg-8">
+                <span class="cxm-pill cxm-pill--light">Public trust</span>
+                <p class="cxm-big-quote mt-4">Recognition that is evidence-based, impartial and limited to exactly what was approved.</p>
+              </div>
+              <div class="col-lg-4">
+                <div class="cxm-btns justify-content-lg-end">
+                  <a class="cxm-btn cxm-btn--white" href="verify.html">Verify a record<i class="bi bi-arrow-right"></i></a
+                  ><a class="cxm-btn cxm-btn--glass" href="integrity.html">Our integrity framework<i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="cxm-section cxm-section--tight pt-0">
+          <div class="container">
+            <div class="cxm-cta cxm-reveal" data-cxm-scope>
+              <div class="cxm-media">
+                <div class="cxm-media-photo" data-cxm-photo="containers"></div>
+                <div class="cxm-media-video" data-cxm-video="closingCta"></div>
+              </div>
+              <div class="cxm-overlay cxm-ov-navy"></div>
+              <svg class="cxm-route cxm-route--cta" viewBox="0 0 1400 300" preserveAspectRatio="none" aria-hidden="true">
+                <defs>
+                  <linearGradient id="cxmRouteGrad" x1="0" x2="1">
+                    <stop offset="0" stop-color="#FCD34D" />
+                    <stop offset=".35" stop-color="#22D3EE" />
+                    <stop offset=".7" stop-color="#34D399" />
+                    <stop offset="1" stop-color="#F472B6" />
+                  </linearGradient>
+                </defs>
+                <path
+                  class="cxm-route-line"
+                  d="M80 120 C170 40 200 60 260 60 S360 200 420 180 S540 70 610 90 S720 230 780 210 S880 90 940 110 S1060 230 1120 200 S1240 60 1300 80"
+                  fill="none"
+                  stroke="url(#cxmRouteGrad)"
+                  stroke-width="2.5"
+                />
+                <path
+                  class="cxm-route-fast"
+                  d="M80 220 C300 260 500 120 700 160 S1100 260 1400 150"
+                  fill="none"
+                  stroke="#22D3EE"
+                  stroke-opacity=".35"
+                  stroke-width="1.5"
+                />
+                <path
+                  class="cxm-route-fast"
+                  d="M0 60 C250 0 450 120 700 60 S1150 20 1400 90"
+                  fill="none"
+                  stroke="#FCD34D"
+                  stroke-opacity=".3"
+                  stroke-width="1.5"
+                />
+                <circle cx="80" cy="120" r="10" fill="#FCD34D" opacity=".18" class="cxm-route-node" style="animation-delay: 0s" />
+                <circle cx="80" cy="120" r="4.5" fill="#FCD34D" />
+                <circle cx="260" cy="60" r="10" fill="#22D3EE" opacity=".18" class="cxm-route-node" style="animation-delay: 0.4s" />
+                <circle cx="260" cy="60" r="4.5" fill="#22D3EE" />
+                <circle cx="420" cy="180" r="10" fill="#34D399" opacity=".18" class="cxm-route-node" style="animation-delay: 0.8s" />
+                <circle cx="420" cy="180" r="4.5" fill="#34D399" />
+                <circle cx="610" cy="90" r="10" fill="#F472B6" opacity=".18" class="cxm-route-node" style="animation-delay: 1.2s" />
+                <circle cx="610" cy="90" r="4.5" fill="#F472B6" />
+                <circle cx="780" cy="210" r="10" fill="#FB923C" opacity=".18" class="cxm-route-node" style="animation-delay: 1.6s" />
+                <circle cx="780" cy="210" r="4.5" fill="#FB923C" />
+                <circle cx="940" cy="110" r="10" fill="#60A5FA" opacity=".18" class="cxm-route-node" style="animation-delay: 2s" />
+                <circle cx="940" cy="110" r="4.5" fill="#60A5FA" />
+                <circle cx="1120" cy="200" r="10" fill="#FCD34D" opacity=".18" class="cxm-route-node" style="animation-delay: 2.4s" />
+                <circle cx="1120" cy="200" r="4.5" fill="#FCD34D" />
+                <circle cx="1300" cy="80" r="10" fill="#22D3EE" opacity=".18" class="cxm-route-node" style="animation-delay: 2.8s" />
+                <circle cx="1300" cy="80" r="4.5" fill="#22D3EE" />
+              </svg>
+              <div class="cxm-container row align-items-center g-4">
+                <div class="col-lg-7">
+                  <div class="cxm-cta-title">
+                    Start with the standard.<br />Build the capability.<br /><span class="cxm-grad-text">Demonstrate the result.</span>
+                  </div>
+                </div>
+                <div class="col-lg-5">
+                  <div class="cxm-btns justify-content-lg-end">
+                    <a class="cxm-btn cxm-btn--primary" href="credentials.html">Find your pathway<i class="bi bi-arrow-right"></i></a
+                    ><a class="cxm-btn cxm-btn--glass" href="contact.html">Contact CISCM<i class="bi bi-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="cxm-footer">
+        <svg class="cxm-route cxm-route--footer" viewBox="0 0 1400 300" preserveAspectRatio="none" aria-hidden="true">
+          <defs>
+            <linearGradient id="cxmRouteGrad" x1="0" x2="1">
+              <stop offset="0" stop-color="#FCD34D" />
+              <stop offset=".35" stop-color="#22D3EE" />
+              <stop offset=".7" stop-color="#34D399" />
+              <stop offset="1" stop-color="#F472B6" />
+            </linearGradient>
+          </defs>
+          <path
+            class="cxm-route-line"
+            d="M80 120 C170 40 200 60 260 60 S360 200 420 180 S540 70 610 90 S720 230 780 210 S880 90 940 110 S1060 230 1120 200 S1240 60 1300 80"
+            fill="none"
+            stroke="url(#cxmRouteGrad)"
+            stroke-width="2.5"
+          />
+          <path
+            class="cxm-route-fast"
+            d="M80 220 C300 260 500 120 700 160 S1100 260 1400 150"
+            fill="none"
+            stroke="#22D3EE"
+            stroke-opacity=".35"
+            stroke-width="1.5"
+          />
+          <path
+            class="cxm-route-fast"
+            d="M0 60 C250 0 450 120 700 60 S1150 20 1400 90"
+            fill="none"
+            stroke="#FCD34D"
+            stroke-opacity=".3"
+            stroke-width="1.5"
+          />
+          <circle cx="80" cy="120" r="10" fill="#FCD34D" opacity=".18" class="cxm-route-node" style="animation-delay: 0s" />
+          <circle cx="80" cy="120" r="4.5" fill="#FCD34D" />
+          <circle cx="260" cy="60" r="10" fill="#22D3EE" opacity=".18" class="cxm-route-node" style="animation-delay: 0.4s" />
+          <circle cx="260" cy="60" r="4.5" fill="#22D3EE" />
+          <circle cx="420" cy="180" r="10" fill="#34D399" opacity=".18" class="cxm-route-node" style="animation-delay: 0.8s" />
+          <circle cx="420" cy="180" r="4.5" fill="#34D399" />
+          <circle cx="610" cy="90" r="10" fill="#F472B6" opacity=".18" class="cxm-route-node" style="animation-delay: 1.2s" />
+          <circle cx="610" cy="90" r="4.5" fill="#F472B6" />
+          <circle cx="780" cy="210" r="10" fill="#FB923C" opacity=".18" class="cxm-route-node" style="animation-delay: 1.6s" />
+          <circle cx="780" cy="210" r="4.5" fill="#FB923C" />
+          <circle cx="940" cy="110" r="10" fill="#60A5FA" opacity=".18" class="cxm-route-node" style="animation-delay: 2s" />
+          <circle cx="940" cy="110" r="4.5" fill="#60A5FA" />
+          <circle cx="1120" cy="200" r="10" fill="#FCD34D" opacity=".18" class="cxm-route-node" style="animation-delay: 2.4s" />
+          <circle cx="1120" cy="200" r="4.5" fill="#FCD34D" />
+          <circle cx="1300" cy="80" r="10" fill="#22D3EE" opacity=".18" class="cxm-route-node" style="animation-delay: 2.8s" />
+          <circle cx="1300" cy="80" r="4.5" fill="#22D3EE" />
+        </svg>
+        <span class="cxm-blob" style="left: -80px; bottom: 0; background: rgba(34, 211, 238, 0.18)"></span>
+        <span class="cxm-blob" style="right: 0; top: 40px; background: rgba(249, 115, 22, 0.16)"></span>
+        <div class="cxm-rainbow"></div>
+        <div class="container position-relative py-5">
+          <div class="row g-5 py-3">
+            <div class="col-lg-4">
+              <a class="cxm-logo" href="index.html"
+                ><span class="d-flex align-items-center gap-3" data-cxm-logo
+                  ><span class="cxm-logo-mark"
+                    ><svg viewBox="0 0 40 40" width="28" height="28" aria-hidden="true">
+                      <circle cx="8" cy="20" r="3.2" fill="#FCD34D" />
+                      <circle cx="20" cy="9" r="3.2" fill="#fff" />
+                      <circle cx="20" cy="31" r="3.2" fill="#fff" />
+                      <circle cx="32" cy="20" r="3.2" fill="#34D399" />
+                      <path d="M8 20 L20 9 L32 20 L20 31 Z" fill="none" stroke="#fff" stroke-width="1.8" stroke-opacity=".85" /></svg></span
+                  ><span
+                    ><span class="cxm-logo-name">CISCM</span
+                    ><span class="cxm-logo-sub">Chartered Institute of Supply Chain Mgmt</span></span
+                  ></span
+                ></a
+              >
+              <p class="mt-4">
+                CISCM is a USA-registered independent professional organisation specialising in supply chain, logistics, procurement and
+                operations management.
+              </p>
+              <a class="cxm-footer-mail" href="mailto:info@ciscm.us"
+                ><i class="bi bi-envelope-fill" style="color: #fcd34d"></i>info@ciscm.us</a
+              >
+            </div>
+            <div class="col-6 col-md-3 col-lg-2">
+              <h5>About</h5>
+              <ul>
+                <li><a href="about.html">About CISCM</a></li>
+                <li><a href="professional-standards.html">Professional Standards</a></li>
+                <li><a href="professional-services.html">Professional Services</a></li>
+                <li><a href="contact.html">FAQ</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-3 col-lg-2">
+              <h5>Integrity</h5>
+              <ul>
+                <li><a href="integrity.html#quality">Quality Assurance</a></li>
+                <li><a href="integrity.html#claims">Brand Use</a></li>
+                <li><a href="integrity.html#complaints">Complaints</a></li>
+                <li><a href="integrity.html#appeals">Appeals</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-3 col-lg-2">
+              <h5>Solutions</h5>
+              <ul>
+                <li><a href="solutions.html#employers">Employers</a></li>
+                <li><a href="solutions.html#providers">Education Providers</a></li>
+                <li><a href="solutions.html#academies">Corporate Academies</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-3 col-lg-2">
+              <h5>Resources</h5>
+              <ul>
+                <li><a href="credentials.html">Credentials</a></li>
+                <li><a href="membership.html">Membership</a></li>
+                <li><a href="verify.html">Verify</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="cxm-footer-bottom position-relative">
+          <div class="container d-flex flex-column flex-md-row justify-content-between gap-2 py-4">
+            <span>&copy; <span data-cxm-year>2026</span> Chartered Institute of Supply Chain Management. All rights reserved.</span>
+            <span class="d-flex gap-4"
+              ><a href="https://ciscm.us/privacy_policy">Privacy Policy</a><a href="https://ciscm.us/terms_condition">Terms of Use</a
+              ><a href="https://ciscm.us/accessibility">Accessibility</a></span
+            >
+          </div>
+        </div>
+      </footer>
+      <button class="cxm-totop" aria-label="Back to top"><i class="bi bi-arrow-up"></i></button>
+    </div>
+
+    <!-- Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <!-- CISCM -->
+    <script src="assets/js/ciscm-media.js"></script>
+    <script src="assets/js/ciscm.js"></script>
+  </body>
+</html>
