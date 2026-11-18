@@ -74,7 +74,7 @@
     holder.appendChild(v);
     if (!reduceMotion) {
       var p = v.play();
-      if (p && p.catch) p.catch(function () {});
+      if (p && p.catch) p.catch(function () { });
     }
   });
   function toggleHide(holder) {
@@ -286,32 +286,32 @@
   var io =
     "IntersectionObserver" in window
       ? new IntersectionObserver(
-          function (entries) {
-            entries.forEach(function (e) {
-              if (!e.isIntersecting) return;
-              var el = e.target;
-              io.unobserve(el);
-              if (el.hasAttribute("data-cxm-count")) {
-                var to = parseInt(el.getAttribute("data-cxm-count"), 10),
-                  t0 = performance.now(),
-                  dur = 1400;
-                if (reduceMotion) {
-                  el.textContent = to;
-                  return;
-                }
-                var tick = function (t) {
-                  var p = Math.min(1, (t - t0) / dur);
-                  el.textContent = Math.round(to * (1 - Math.pow(1 - p, 3)));
-                  if (p < 1) requestAnimationFrame(tick);
-                };
-                requestAnimationFrame(tick);
-              } else if (el.hasAttribute("data-w")) {
-                el.style.width = el.getAttribute("data-w");
+        function (entries) {
+          entries.forEach(function (e) {
+            if (!e.isIntersecting) return;
+            var el = e.target;
+            io.unobserve(el);
+            if (el.hasAttribute("data-cxm-count")) {
+              var to = parseInt(el.getAttribute("data-cxm-count"), 10),
+                t0 = performance.now(),
+                dur = 1400;
+              if (reduceMotion) {
+                el.textContent = to;
+                return;
               }
-            });
-          },
-          { threshold: 0.3 },
-        )
+              var tick = function (t) {
+                var p = Math.min(1, (t - t0) / dur);
+                el.textContent = Math.round(to * (1 - Math.pow(1 - p, 3)));
+                if (p < 1) requestAnimationFrame(tick);
+              };
+              requestAnimationFrame(tick);
+            } else if (el.hasAttribute("data-w")) {
+              el.style.width = el.getAttribute("data-w");
+            }
+          });
+        },
+        { threshold: 0.3 },
+      )
       : null;
   $$("[data-cxm-count], .cxm-bar span[data-w]").forEach(function (el) {
     if (io) io.observe(el);
