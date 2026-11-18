@@ -2836,3 +2836,65 @@ textarea.cxm-input {
     }
 
 }
+
+
+
+/* Hero Section */
+        .form-control-lg{
+          font-size: 12px;
+        }
+        .form-select-lg{
+          font-size: 12px;
+        }
+
+        /* Form Sections */
+        .form-section {
+            padding: 80px 0;
+        }
+
+        .form-section.alt-bg {
+            background: linear-gradient(90deg, #fb923c, #f43f5e, #38bdf8, #34d399);
+        }
+
+        .form-section-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .form-section-header .section-number {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 48px;
+            height: 48px;
+            background: var(--primary-color);
+            color: white;
+            border-radius: 50%;
+            font-family: var(--font-heading);
+            font-weight: 700;
+            font-size: 1.25rem;
+            margin-bottom: 20px;
+        }
+
+        .form-section-header h2 {
+            font-size: 2.25rem;
+            margin-bottom: 15px;
+        }
+
+        .form-section-header .section-desc {
+            font-size: 1.0625rem;
+            color: var(--text-muted);
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.7;
+        }
+
+        /* Form Container */
+        .form-container {
+            background: var(--bg-white);
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow-md);
+            overflow: hidden;
+            max-width: 960px;
+            margin: 0 auto;
+        }

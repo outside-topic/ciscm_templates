@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CISCM | Chartered Institute of Supply Chain Management</title>
+    <meta name="description"
+        content="CISCM helps professionals, employers and education providers turn supply chain knowledge into demonstrable workplace capability." />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet" />
+
+    <!-- Libraries -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- CISCM styles (all classes prefixed cxm-) -->
+    <link rel="stylesheet" href="assets/css/ciscm.css" />
+</head>
+
+<body>
+    <div class="cxm">
+        <header class="cxm-header">
+            <div class="cxm-rainbow"></div>
+            <nav class="navbar navbar-expand-xl navbar-dark">
+                <div class="container-xxl">
+                    <a class="cxm-logo navbar-brand me-0" href="index.html" aria-label="CISCM home">
+                        <img src="assets/images/CISCM_footer.png" alt="CISCM LOGO">
+                    </a>
+                    <button class="navbar-toggler cxm-burger" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#cxmNav" aria-controls="cxmNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <i class="bi bi-list"></i>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end cxm-nav" id="cxmNav">
+                        <ul class="navbar-nav align-items-xl-center gap-xl-1">
+                            <li class="nav-item"><a class="nav-link cxm-nav-link cxm-active" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link cxm-nav-link" href="membership.html">Membership</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link cxm-nav-link dropdown-toggle" href="accreditation.html" role="button"
+                                    data-bs-toggle="dropdown" data-bs-auto-close="true"
+                                    aria-expanded="false">Accreditation</a>
+                                <div class="dropdown-menu cxm-dd">
+                                    <a class="dropdown-item" href="accreditation.html">Accreditation Overview</a>
+                                    <a class="dropdown-item d-none" href="accreditation.html#overview">Accreditation
+                                        Overview</a>
+                                    <a class="dropdown-item" href="accreditation.html#institutional">Institutional
+                                        Accreditation</a>
+                                    <a class="dropdown-item" href="accreditation.html#program">Program Accreditation</a>
+                                </div>
+                            </li>
+                            <li class="nav-item"><a class="nav-link cxm-nav-link"
+                                    href="credentials.html">Credentials</a></li>
+                            <li class="nav-item"><a class="nav-link cxm-nav-link" href="integrity.html">Integrity</a>
+                            </li>
+                            <li class="nav-item dropdown d-none">
+                                <a class="nav-link cxm-nav-link dropdown-toggle" href="integrity.html" role="button"
+                                    data-bs-toggle="dropdown" data-bs-auto-close="true"
+                                    aria-expanded="false">Integrity</a>
+                                <div class="dropdown-menu cxm-dd dropdown-menu-xl-end">
+                                    <a class="dropdown-item" href="integrity.html">Integrity overview</a><a
+                                        class="dropdown-item" href="integrity.html#quality">Quality Assurance</a><a
+                                        class="dropdown-item" href="integrity.html#claims">Public Claims and Brand
+                                        Use</a><a class="dropdown-item"
+                                        href="integrity.html#complaints">Complaints</a><a class="dropdown-item"
+                                        href="integrity.html#appeals">Appeals</a>
+                                </div>
+                            </li>
+                            <li class="nav-item"><a class="nav-link cxm-nav-link" href="contact.html">Contact</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link cxm-nav-link dropdown-toggle" href="verify.html" role="button"
+                                    data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">Verify</a>
+                                <div class="dropdown-menu cxm-dd dropdown-menu-xl-end">
+                                    <a class="dropdown-item d-none" href="verify.html">Verify overview</a><a
+                                        class="dropdown-item" href="verify.html#program">Program Verify</a><a
+                                        class="dropdown-item" href="verify.html#accreditation">Accreditation
+                                        Verify</a><a class="dropdown-item" href="verify.html#member">Member Verify</a>
+                                </div>
+                            </li>
+                            <li class="nav-item d-xl-none"><a class="nav-link cxm-nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item d-xl-none">
+                                <a class="nav-link cxm-nav-link" href="professional-standards.html">Professional
+                                    Standards</a>
+                            </li>
+                            <li class="nav-item d-xl-none">
+                                <a class="nav-link cxm-nav-link" href="professional-services.html">Professional
+                                    Services</a>
+                            </li>
+                        </ul>
+                        <a class="cxm-btn cxm-btn--primary cxm-join ms-xl-3" href="membership.html">Join CISCM</a>
+                    </div>
+                </div>
+            </nav>
+            <div class="cxm-topbar d-none d-xl-block">
+                <div class="container-xxl d-flex justify-content-end gap-4 py-1">
+                    <a href="about.html" class="">About</a>
+                    <a href="professional-standards.html" class="">Professional Standards</a>
+                    <a href="professional-services.html" class="">Professional Services</a>
+                </div>
+            </div>
+        </header>
+        <main class="mt-lg-5">
+            <section class="mt-lg-5">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-9">
+                            <div class="card border-0 shadow-sm rounded-4 overflow-hidden bg-white">
+
+                                <!-- Header -->
+                                <div class="card-header p-4"
+                                    style="background: linear-gradient(90deg, #fb923c, #f43f5e, #38bdf8, #34d399) !important;">
+                                    <div class="d-flex align-items-center gap-3">
+                                        <div class="rounded-3 d-flex align-items-center justify-content-center shadow-sm"
+                                            style="width: 52px; height: 52px; background: rgba(255, 255, 255, 0.2); font-size: 24px;">
+                                            <i class="bi bi-person-badge" style="color: #ffffff !important;"></i>
+                                        </div>
+                                        <div>
+                                            <h4 class="fw-bold mb-1"
+                                                style="color: #ffffff !important; margin: 0; font-size: 1.35rem; letter-spacing: 0.3px;">
+                                                Membership Application Form
+                                            </h4>
+                                            <small style="color: #e2e8f0 !important; font-size: 0.875rem;">
+                                                Submit your credentials and professional profile for CISCM review
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Form Body -->
+                                <div class="card-body p-4 p-md-5 fs-6">
+                                    <form id="membershipApplyForm" action="https://ciscm.us/membership-apply/store"
+                                        method="POST" enctype="multipart/form-data">
+                                        <input type="hidden" name="_token"
+                                            value="NLzEnSXJVPMNNMzje9wLIklGGqxRdPaoCaFvDYaJ" autocomplete="off">
+                                        <!-- Membership Category Selection -->
+                                        <h6 class="fw-bold text-dark mb-3">1. Select Membership Category</h6>
+                                        <div class="row g-3 mb-4">
+                                            <div class="col-12">
+                                                <label class="form-label small fw-semibold">Membership Type <span
+                                                        class="text-danger">*</span></label>
+                                                <select class="form-select form-select-lg custom-input"
+                                                    name="membership_item_id" required>
+                                                    <option value="" disabled selected>Select Membership Package
+                                                    </option>
+                                                    <option value="1">
+                                                        Associate Member
+                                                    </option>
+                                                    <option value="2">
+                                                        Professional Member
+                                                    </option>
+                                                    <option value="4">
+                                                        Fellow Member
+                                                    </option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <hr class="my-4 opacity-25">
+
+                                        <!-- Personal Information -->
+                                        <h6 class="fw-bold text-dark mb-3">2. Personal & Professional Details</h6>
+                                        <div class="row g-3 mb-4">
+                                            <div class="col-md-6">
+                                                <label class="form-label small fw-semibold">Full Name <span
+                                                        class="text-danger">*</span></label>
+                                                <input type="text" class="form-control form-control-lg custom-input"
+                                                    name="name" placeholder="John Doe" required>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label class="form-label small fw-semibold">Email Address <span
+                                                        class="text-danger">*</span></label>
+                                                <input type="email" class="form-control form-control-lg custom-input"
+                                                    name="email" placeholder="example@domain.com" required>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label class="form-label small fw-semibold">Phone Number <span
+                                                        class="text-danger">*</span></label>
+                                                <input type="text" class="form-control form-control-lg custom-input"
+                                                    name="phone" placeholder="+1 (555) 000-0000" required>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label class="form-label small fw-semibold">Designation / Current Role
+                                                    <span class="text-danger">*</span></label>
+                                                <input type="text" class="form-control form-control-lg custom-input"
+                                                    name="designation" placeholder="e.g. Supply Chain Manager" required>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label class="form-label small fw-semibold">Total Work Experience <span
+                                                        class="text-danger">*</span></label>
+                                                <input type="text" class="form-control form-control-lg custom-input"
+                                                    name="experience"
+                                                    placeholder="e.g. 5 Years in Logistics & Procurement" required>
+                                            </div>
+
+                                            <!-- New Required Profile Link Field -->
+                                            <div class="col-md-6">
+                                                <label class="form-label small fw-semibold">LinkedIn / Facebook Profile
+                                                    Link
+                                                    <span class="text-danger">*</span></label>
+                                                <input type="url" class="form-control form-control-lg custom-input"
+                                                    name="social_profile"
+                                                    placeholder="https://linkedin.com/in/username or facebook.com/profile"
+                                                    required>
+                                            </div>
+                                        </div>
+
+                                        <hr class="my-4 opacity-25">
+
+                                        <!-- Supporting Document Upload -->
+                                        <h6 class="fw-bold text-dark mb-3">3. Supporting Documents / Profile</h6>
+                                        <div class="row g-3 mb-4">
+                                            <div class="col-12">
+                                                <label class="form-label small fw-semibold">Upload CV / Professional
+                                                    Profile
+                                                    (PDF, DOC, DOCX)</label>
+                                                <input class="form-control form-control-lg custom-input" type="file"
+                                                    name="document" accept=".pdf,.doc,.docx">
+                                                <small class="text-muted d-block mt-1">Allowed formats: PDF, DOC, DOCX
+                                                    (Max
+                                                    file size: 10MB)</small>
+                                            </div>
+                                        </div>
+
+                                        <!-- Form Actions -->
+                                        <div class="d-flex justify-content-end gap-2 pt-3 border-top">
+                                            <button type="reset" class="cxm-btn cxm-btn--dark px-4">Reset</button>
+                                            <button type="submit" id="submitBtn"
+                                                class="cxm-btn cxm-btn--primary px-5 py-2 fw-semibold">Submit
+                                                Application</button>
+                                        </div>
+                                    </form>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="cxm-footer">
+            <svg class="cxm-route cxm-route--footer" viewBox="0 0 1400 300" preserveAspectRatio="none"
+                aria-hidden="true">
+                <defs>
+                    <linearGradient id="cxmRouteGrad" x1="0" x2="1">
+                        <stop offset="0" stop-color="#FCD34D" />
+                        <stop offset=".35" stop-color="#22D3EE" />
+                        <stop offset=".7" stop-color="#34D399" />
+                        <stop offset="1" stop-color="#F472B6" />
+                    </linearGradient>
+                </defs>
+                <path class="cxm-route-line"
+                    d="M80 120 C170 40 200 60 260 60 S360 200 420 180 S540 70 610 90 S720 230 780 210 S880 90 940 110 S1060 230 1120 200 S1240 60 1300 80"
+                    fill="none" stroke="url(#cxmRouteGrad)" stroke-width="2.5" />
+                <path class="cxm-route-fast" d="M80 220 C300 260 500 120 700 160 S1100 260 1400 150" fill="none"
+                    stroke="#22D3EE" stroke-opacity=".35" stroke-width="1.5" />
+                <path class="cxm-route-fast" d="M0 60 C250 0 450 120 700 60 S1150 20 1400 90" fill="none"
+                    stroke="#FCD34D" stroke-opacity=".3" stroke-width="1.5" />
+                <circle cx="80" cy="120" r="10" fill="#FCD34D" opacity=".18" class="cxm-route-node"
+                    style="animation-delay: 0s" />
+                <circle cx="80" cy="120" r="4.5" fill="#FCD34D" />
+                <circle cx="260" cy="60" r="10" fill="#22D3EE" opacity=".18" class="cxm-route-node"
+                    style="animation-delay: 0.4s" />
+                <circle cx="260" cy="60" r="4.5" fill="#22D3EE" />
+                <circle cx="420" cy="180" r="10" fill="#34D399" opacity=".18" class="cxm-route-node"
+                    style="animation-delay: 0.8s" />
+                <circle cx="420" cy="180" r="4.5" fill="#34D399" />
+                <circle cx="610" cy="90" r="10" fill="#F472B6" opacity=".18" class="cxm-route-node"
+                    style="animation-delay: 1.2s" />
+                <circle cx="610" cy="90" r="4.5" fill="#F472B6" />
+                <circle cx="780" cy="210" r="10" fill="#FB923C" opacity=".18" class="cxm-route-node"
+                    style="animation-delay: 1.6s" />
+                <circle cx="780" cy="210" r="4.5" fill="#FB923C" />
+                <circle cx="940" cy="110" r="10" fill="#60A5FA" opacity=".18" class="cxm-route-node"
+                    style="animation-delay: 2s" />
+                <circle cx="940" cy="110" r="4.5" fill="#60A5FA" />
+                <circle cx="1120" cy="200" r="10" fill="#FCD34D" opacity=".18" class="cxm-route-node"
+                    style="animation-delay: 2.4s" />
+                <circle cx="1120" cy="200" r="4.5" fill="#FCD34D" />
+                <circle cx="1300" cy="80" r="10" fill="#22D3EE" opacity=".18" class="cxm-route-node"
+                    style="animation-delay: 2.8s" />
+                <circle cx="1300" cy="80" r="4.5" fill="#22D3EE" />
+            </svg>
+            <span class="cxm-blob" style="left: -80px; bottom: 0; background: rgba(34, 211, 238, 0.18)"></span>
+            <span class="cxm-blob" style="right: 0; top: 40px; background: rgba(249, 115, 22, 0.16)"></span>
+            <div class="cxm-rainbow"></div>
+            <div class="container position-relative py-5">
+                <div class="row g-5 py-3">
+                    <div class="col-lg-4">
+                        <a class="cxm-logo" href="index.html"><span class="d-flex align-items-center gap-3"
+                                data-cxm-logo><span class="cxm-logo-mark"><svg viewBox="0 0 40 40" width="28"
+                                        height="28" aria-hidden="true">
+                                        <circle cx="8" cy="20" r="3.2" fill="#FCD34D" />
+                                        <circle cx="20" cy="9" r="3.2" fill="#fff" />
+                                        <circle cx="20" cy="31" r="3.2" fill="#fff" />
+                                        <circle cx="32" cy="20" r="3.2" fill="#34D399" />
+                                        <path d="M8 20 L20 9 L32 20 L20 31 Z" fill="none" stroke="#fff"
+                                            stroke-width="1.8" stroke-opacity=".85" />
+                                    </svg></span><span><span class="cxm-logo-name">CISCM</span><span
+                                        class="cxm-logo-sub">Chartered
+                                        Institute of Supply Chain Mgmt</span></span></span></a>
+                        <p class="mt-4">
+                            CISCM is a USA-registered independent professional organisation specialising in supply
+                            chain, logistics,
+                            procurement and
+                            operations management.
+                        </p>
+                        <a class="cxm-footer-mail" href="mailto:info@ciscm.us"><i class="bi bi-envelope-fill"
+                                style="color: #fcd34d"></i>info@ciscm.us</a>
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-2">
+                        <h5>About</h5>
+                        <ul>
+                            <li><a href="about.html">About CISCM</a></li>
+                            <li><a href="professional-standards.html">Professional Standards</a></li>
+                            <li><a href="professional-services.html">Professional Services</a></li>
+                            <li><a href="contact.html">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-2">
+                        <h5>Integrity</h5>
+                        <ul>
+                            <li><a href="integrity.html#quality">Quality Assurance</a></li>
+                            <li><a href="integrity.html#claims">Brand Use</a></li>
+                            <li><a href="integrity.html#complaints">Complaints</a></li>
+                            <li><a href="integrity.html#appeals">Appeals</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-2">
+                        <h5>Solutions</h5>
+                        <ul>
+                            <li><a href="solutions.html#employers">Employers</a></li>
+                            <li><a href="solutions.html#providers">Education Providers</a></li>
+                            <li><a href="solutions.html#academies">Corporate Academies</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-2">
+                        <h5>Resources</h5>
+                        <ul>
+                            <li><a href="credentials.html">Credentials</a></li>
+                            <li><a href="membership.html">Membership</a></li>
+                            <li><a href="verify.html">Verify</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="cxm-footer-bottom position-relative">
+                <div class="container d-flex flex-column flex-md-row justify-content-between gap-2 py-4">
+                    <span>&copy; <span data-cxm-year>2026</span> Chartered Institute of Supply Chain Management. All
+                        rights
+                        reserved.</span>
+                    <span class="d-flex gap-4"><a href="https://ciscm.us/privacy_policy">Privacy Policy</a><a
+                            href="https://ciscm.us/terms_condition">Terms of Use</a><a
+                            href="https://ciscm.us/accessibility">Accessibility</a></span>
+                </div>
+            </div>
+        </footer>
+        <button class="cxm-totop" aria-label="Back to top"><i class="bi bi-arrow-up"></i></button>
+    </div>
+
+    <!-- Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <!-- CISCM -->
+    <script src="assets/js/ciscm-media.js"></script>
+    <script src="assets/js/ciscm.js"></script>
+</body>
+
+</html>
