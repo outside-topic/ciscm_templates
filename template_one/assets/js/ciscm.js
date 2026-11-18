@@ -435,3 +435,31 @@
     el.textContent = new Date().getFullYear();
   });
 })();
+
+
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+
+  const nav = document.querySelector(".cxm-subnav");
+  const prev = document.querySelector(".cxm-nav-prev");
+  const next = document.querySelector(".cxm-nav-next");
+
+  if (!nav || !prev || !next) return;
+
+  prev.addEventListener("click", function () {
+    nav.scrollBy({
+      left: -180,
+      behavior: "smooth"
+    });
+  });
+
+  next.addEventListener("click", function () {
+    nav.scrollBy({
+      left: 180,
+      behavior: "smooth"
+    });
+  });
+
+});
