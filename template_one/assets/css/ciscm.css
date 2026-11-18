@@ -794,7 +794,7 @@
   position: sticky;
   top: var(--cxm-header-h);
   z-index: 1020;
-  margin-top: -28px;
+  margin-top: 0px;
   padding: 0 12px;
 }
 .cxm-subnav {
