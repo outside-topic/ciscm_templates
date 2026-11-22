@@ -34,12 +34,12 @@
     logo: site("CISCM_footer.png"),
 
     photos: {
-      port: unsplash("1494412519320-aa613dfb7738"),
+      port: "./assets/images/slider_4_img.jpg",
       containers: unsplash("1494412685616-a5d310fbb07d"),
       aboutHero: unsplash("1519213887655-a4f199e3015b"),
       membershipHero: unsplash("1606964212858-c215029db704"),
       qualityHero: unsplash("1589330694653-ded6df03f754"),
-      credentials: site("credentials.jpeg"),
+      credentials: './assets/images/slider_cont_img.jpg',
       accreditation: site("acc_over.jpeg"),
       institutional: site("Accreditation_photo.jpg.jpeg"),
       program: site("Program_accreditation.jpg.jpeg"),
