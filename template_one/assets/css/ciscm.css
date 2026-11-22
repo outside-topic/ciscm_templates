@@ -2899,3 +2899,8 @@ textarea.cxm-input {
             max-width: 960px;
             margin: 0 auto;
         }
+
+.footer_logo_img{
+  height: auto;
+  max-width: 100px !important; 
+}
